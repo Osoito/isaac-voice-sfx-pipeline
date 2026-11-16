@@ -1,15 +1,8 @@
 # Miyamo Voice SFX for The Binding of Isaac: Repentance+
 
-Replaces 673 of the game's sound effects with cut-up voice clips of one
-character. Published on the Steam Workshop as item
-[3798883789](https://steamcommunity.com/sharedfiles/filedetails/?id=3798883789).
+Replaces 673 of the game's sound effects with cut-up voice clips of one character. Published on the Steam Workshop as item [3798883789](https://steamcommunity.com/sharedfiles/filedetails/?id=3798883789).
 
-43 source clips had to cover 673 slots, about 16 slots per clip, and a replacement that
-is funny the first time becomes unbearable the twentieth. That is the problem
-this repository solves. The pipeline cuts the clips into usable pieces, measures
-what each piece sounds like, measures what each target sound demands, assigns
-under stated constraints, and puts real audio in front of a human before
-anything is committed to.
+43 source clips had to cover 673 slots, about 16 slots per clip. A replacement that is funny the first time becomes unbearable the twentieth. So the work here is a pipeline. It cuts the clips into usable pieces, measures what each piece sounds like, measures what each target sound demands, assigns under stated constraints, and puts real audio in front of me before anything is committed to.
 
 ```
 Voices/*.mp3                43 raw clips
@@ -23,71 +16,62 @@ Voices/*.mp3                43 raw clips
    v build/deploy.py        install, or produce an uploadable release
 ```
 
-## Signal processing
+## Running it
 
-`build/dsp.py` is pure numpy and scipy, no file access, so it stays testable
-without audio. It provides silence trimming, framing, RMS envelope, spectral
-centroid as a brightness measure, an envelope classifier (percussive, sustained,
-swell), pitch shifting by resampling, and fades.
+Needs Python 3.13 with numpy and scipy, and ffmpeg on PATH.
 
-Segmentation searches for energy dips and treats the rise out of a dip as a
-syllable start. Selecting by maximum short-term RMS instead, which is the
-obvious approach, lands in the middle of a phrase every time.
+```powershell
+python build/atomize.py
+python build/vanilla.py
+python build/auto.py
+python build/bake.py
+python build/deploy.py
+```
 
-## Why assignment needs constraints, and not only an acoustic score
+`python -m pytest` runs 35 tests over the DSP and the atomizer. Those need no audio, so they work on a fresh clone.
 
-A pure duration match throws away everything that makes the mod work. At 1:16,
-placing each clip wherever it scores best produces a mod where the same laugh
-answers a coin drop, a door and a boss. `build/auto.py` scores on duration,
-envelope class, brightness and pitch, and then applies rules that are stated
-once and checked over the whole set:
+No audio ships with this repository. The voice clips come from a commercial anime and the targets are the game's own files, so neither is mine to redistribute. Drop your own clips into `Voices/` and the pipeline runs end to end.
 
-- Recognisable spoken words are allowed only on sounds that fire once per event,
-  such as a pill identification or a boss entrance. A sound that retriggers
-  within seconds turns a word into a stuck record, so a group with three or more
-  numbered variants is disqualified from speech, as is any name matching a
-  repeated-action pattern.
-- Pickups and machines draw only from atoms no creature or player sound already
-  uses, and never chain two atoms together. A coin landing is one event, so it
-  gets one atom.
+## Mechanics
+
+##### Signal processing
+
+`build/dsp.py` is pure numpy and scipy with no file access, so it stays testable without audio. It provides silence trimming, framing, RMS envelope, spectral centroid as a brightness measure, an envelope classifier (percussive, sustained, swell), pitch shifting by resampling, and fades.
+
+Segmentation searches for energy dips and treats the rise out of a dip as a syllable start. The obvious approach is to select by maximum short-term RMS, and that lands in the middle of a phrase every time.
+
+##### Why assignment needs constraints
+
+A pure duration match throws away everything that makes the mod work. At 16 slots per clip, placing each clip wherever it scores best produces a mod where the same laugh answers a coin drop, a door and a boss.
+
+`build/auto.py` scores on duration, envelope class, brightness and pitch. It then applies rules that are stated once and checked over the whole set.
+
+- Recognisable spoken words are allowed only on sounds that fire once per event, such as a pill identification or a boss entrance. A sound that retriggers within seconds turns a word into a stuck record, so a group with three or more numbered variants is disqualified from speech, as is any name matching a repeated-action pattern.
+- Pickups and machines draw only from atoms no creature or player sound already uses, and never chain two atoms together. A coin landing is one event, so it gets one atom.
 - Per-source budgets cap how much of the mod any one clip can account for.
 
-`build/semantic.py` holds the choices a person made by listening. It is pure
-data and it always wins over the automatic result.
+`build/semantic.py` holds the choices I made by listening. It is pure data and it always wins over the automatic result.
 
-## Checks that fail the build
+##### Checks that fail the build
 
-`build/bake.py` collects every violation and fails the run. It does not warn and
-carry on:
+`build/bake.py` collects every violation and fails the run. It does not warn and carry on.
 
-1. the target is a real vanilla path (a mistyped path fails silently in game, the
-   engine falls back to its own asset, and nothing downstream can catch it)
+1. the target is a real vanilla path (a mistyped path fails silently in game, the engine falls back to its own asset, and nothing downstream can catch it)
 2. every atom the entry names exists on disk
-3. the output is no longer than 1.05x the file it replaces, where that bound is
-   switched on; a retriggering sound would otherwise overlap itself
+3. the output is no longer than 1.05x the file it replaces, where that bound is switched on. A retriggering sound would otherwise overlap itself
 4. the peak stays under 0.95, so it does not clip
 5. it is no more than 6 dB below the file it replaces
 6. the first frames carry at least 2% of the peak, so it does not start silent
-7. the last half millisecond is under 10% of the peak, so the fade reached zero
-   and it will not click
-8. no two variants inside one numbered group share an atom at the same pitch,
-   which would waste the engine's own randomisation
+7. the last half millisecond is under 10% of the peak, so the fade reached zero and it will not click
+8. no two variants inside one numbered group share an atom at the same pitch, which would waste the engine's own randomisation
 
 Each threshold is a named constant at the top of `build/bake.py`.
 
-`python -m pytest` covers the DSP and the atomizer. 35 tests.
+##### Audition pages
 
-## Audition pages
+`build/choose.py`, `build/preview.py` and `build/all_options.py` generate self-contained HTML with the audio inlined as base64. Numbered rows, the game's own sound against the proposed replacement, playable in place. Every judgement about how the mod sounds was made on one of these pages. The numbering on a page is frozen once it has been handed over, so feedback can refer to row 38 weeks later.
 
-`build/choose.py`, `build/preview.py` and `build/all_options.py` generate
-self-contained HTML with the audio inlined as base64: numbered rows, the game's
-own sound against the proposed replacement, playable in place. Every judgement
-about how the mod sounds was made on one of these pages, and the numbering on a
-page is frozen once it has been handed over, so feedback can refer to row 38
-weeks later.
-
-The pages are not committed. They are megabytes of someone else's audio and they
-regenerate in seconds.
+The pages are not committed. They are megabytes of someone else's audio and they regenerate in seconds.
 
 ## Layout
 
@@ -107,23 +91,10 @@ regenerate in seconds.
 | `spikes/acoustic-classifier/` | Voiced / unvoiced detection. |
 | `docs/design.md` | What the mod covers and why, every number measured. |
 | `docs/release-checklist.md` | Steam Workshop publishing, in order. |
-| `handoff.md` | Everything verified about Isaac audio modding: paths, metadata.xml traps, the two separate volume switches that silence a correct build. |
+| `handoff.md` | Everything I verified about Isaac audio modding. Paths, metadata.xml traps, the two separate volume switches that silence a correct build. |
 
-## Running it
+## Notes
 
-Needs Python 3.13 with numpy and scipy, and ffmpeg on PATH.
+`Voices/`, `atoms/` and `mod/resources/` are excluded, so this repository holds the pipeline and no audio.
 
-```powershell
-python build/atomize.py
-python build/vanilla.py
-python build/auto.py
-python build/bake.py
-python build/deploy.py
-```
-
-## What is not here
-
-No audio. The voice clips come from a commercial anime and the targets are the
-game's own files; neither is mine to redistribute. `Voices/`, `atoms/` and
-`mod/resources/` are excluded. Drop your own clips into `Voices/` and the
-pipeline runs end to end.
+The granular loop experiment under `spikes/` works and has never been judged by ear. I still owe it a listening session. See `docs/granular-loop-spike.md`.
