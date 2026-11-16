@@ -1,0 +1,87 @@
+feedback/penny pickup 1.wav
+feedback/nickel pickup.wav
+feedback/dime pick up.wav
+feedback/penny drop 1.wav
+feedback/nickel drop.wav
+feedback/dime drop.wav
+feedback/coin slot.wav
+feedback/key drop 2.wav
+feedback/key pickup guantlet 4.wav
+feedback/golden key.wav
+feedback/chest drop 1.wav
+feedback/chest open 1.wav
+feedback/lock break 1.wav
+feedback/lock break 3.wav
+feedback/unlock.wav
+feedback/band aid pick up.wav
+feedback/battery charge.wav
+feedback/1 up theremin.wav
+v2/coininsert.wav
+v2/pickup_penny_02.wav
+v2/pickup_nickel_01.wav
+v2/pickup_dime_01.wav
+v2/pickup_lucky_02.wav
+v2/black_heart_burst.wav
+heart out.wav
+heartin.wav
+gold heart.wav
+gold heart drop.wav
+bone heart.wav
+rottenheart1.wav
+rottenheart2.wav
+soulpickup1.wav
+soulpickup2.wav
+soulpickup3.wav
+soulpickup4.wav
+item_raise.wav
+item_abyss.wav
+friendlyball_pickup.wav
+woodennickel.wav
+woodennickel_spawn.wav
+crookedpenny.wav
+cash_register.wav
+rkey.wav
+battery discharge.wav
+feedback/slotspawn 0.wav
+feedback/slotspawn1.wav
+feedback/slotspawn 2.wav
+feedback/blood bank spawn.wav
+feedback/blood bank touched.wav
+feedback/castleportcullis.wav
+feedback/door heavy open.wav
+feedback/door heavy close.wav
+feedback/power up1.wav
+feedback/power up 3.wav
+feedback/power up 4.wav
+feedback/power up 7.wav
+feedback/power up spewer.wav
+feedback/thumbs up.wav
+feedback/thumbs down.wav
+feedback/beep.wav
+feedback/summonsound.wav
+feedback/death card mix.wav
+feedback/book page turn.wav
+shell game 0.wav
+shell game 1.wav
+spin_to_win.wav
+portableslot_coin.wav
+portableslot_prize.wav
+the_d6_roll.wav
+fortunecookie.wav
+button press.wav
+converter.wav
+smelter_swallow.wav
+bagofcrafting.wav
+moms_box.wav
+urnopen.wav
+urnclose.wav
+jar_of_flies.wav
+movingbox_pack.wav
+movingbox_unpack.wav
+shovel dig.wav
+shovel drop.wav
+brokenshovel.wav
+ladder.wav
+trapdoor_jump.wav
+godeeper_crawlspace_dig.wav
+godeeper_crawlspace_open.wav

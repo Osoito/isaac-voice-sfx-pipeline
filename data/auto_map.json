@@ -1,0 +1,7343 @@
+{
+ "angry gurgle 1.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "angry gurgle 2.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "battery discharge.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "beast/beast death 1.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast death 2.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_angrygrowl.wav": {
+  "atoms": [
+   "long-5.00",
+   "belly.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_angrygrowl1.wav": {
+  "atoms": [
+   "gulp.00",
+   "short-19.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_angrygrowl2.wav": {
+  "atoms": [
+   "long-2.01",
+   "long-4.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_angrygrowl3.wav": {
+  "atoms": [
+   "belly.00",
+   "short-21.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_angrygrowl4.wav": {
+  "atoms": [
+   "long-3.00",
+   "laugh.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_firebarf1.wav": {
+  "atoms": [
+   "gulp.00",
+   "long-4.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_firebarf2.wav": {
+  "atoms": [
+   "long-3.00",
+   "short-5.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_firebarf3.wav": {
+  "atoms": [
+   "short-18.00",
+   "short-13.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_firebarf4.wav": {
+  "atoms": [
+   "short-19.00",
+   "short-15.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_ghostattackroar1.wav": {
+  "atoms": [
+   "long-5.00",
+   "short-16.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_ghostattackroar2.wav": {
+  "atoms": [
+   "belly.00",
+   "short-4.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_ghostattackroar3.wav": {
+  "atoms": [
+   "long-2.01",
+   "short-11.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_grumble1.wav": {
+  "atoms": [
+   "short-18.00",
+   "long-4.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_grumble2.wav": {
+  "atoms": [
+   "long-2.01",
+   "short-10.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_grumble3.wav": {
+  "atoms": [
+   "short-19.00",
+   "short-9.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_grumble4.wav": {
+  "atoms": [
+   "gulp.00",
+   "short-8.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_grumble5.wav": {
+  "atoms": [
+   "laugh.00",
+   "short-17.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_grumble6.wav": {
+  "atoms": [
+   "short-21.00",
+   "short-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_grumble7.wav": {
+  "atoms": [
+   "long-4.01",
+   "short-1.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_introscream.wav": {
+  "atoms": [
+   "belly.00",
+   "sukisuki.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_pullinclose.wav": {
+  "atoms": [
+   "belly.00",
+   "wusodaro.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_pullinopen.wav": {
+  "atoms": [
+   "long-5.00",
+   "梅干.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_spitattack1.wav": {
+  "atoms": [
+   "long-5.00",
+   "laugh.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_spitattack2.wav": {
+  "atoms": [
+   "belly.00",
+   "short-14.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_spitattack3.wav": {
+  "atoms": [
+   "long-2.01",
+   "short-20.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_surfacegrowl.wav": {
+  "atoms": [
+   "gulp.00",
+   "short-7.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_switchside1.wav": {
+  "atoms": [
+   "long-5.00",
+   "long-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_switchside2.wav": {
+  "atoms": [
+   "belly.00",
+   "short-3.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "beast/beast_vocal_switchside3.wav": {
+  "atoms": [
+   "belly.00",
+   "short-10.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "bighorn/bighorn_death.wav": {
+  "atoms": [
+   "gulp.00",
+   "miyamo.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "bighorn/bighorn_hurt_react.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "bighorn/bighorn_prep_spit.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "bighorn/bighorn_spit.wav": {
+  "atoms": [
+   "short-18.00",
+   "laugh.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "bigleech.wav": {
+  "atoms": [
+   "short-8.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "bigleech2.wav": {
+  "atoms": [
+   "short-10.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "bluespider_die.wav": {
+  "atoms": [
+   "short-12.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "boil hatch.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "bone heart.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "boss gurgle lite.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D2"
+ },
+ "boss lite hiss 2.wav": {
+  "atoms": [
+   "long-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D2"
+ },
+ "boss lite hiss 3.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D2"
+ },
+ "boss lite hiss.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D2"
+ },
+ "boss lite roar 1.wav": {
+  "atoms": [
+   "long-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D2"
+ },
+ "boss lite roar 2.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D2"
+ },
+ "boss lite roar 3.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D2"
+ },
+ "boss lite roar 4.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D2"
+ },
+ "boss lite sloppy roar 2.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D2"
+ },
+ "boss lite sloppy roar 3.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D2"
+ },
+ "boss lite sloppy roar.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D2"
+ },
+ "boss spit blob barf 1.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D2"
+ },
+ "boss spit blob barf 2.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D2"
+ },
+ "boss spit blob barf 3.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D2"
+ },
+ "brokenshovel.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "brownielaugh1.wav": {
+  "atoms": [
+   "laugh.00",
+   "chuckle.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D4"
+ },
+ "brownielaugh2.wav": {
+  "atoms": [
+   "short-18.00",
+   "laugh.03"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D4"
+ },
+ "bumbino/death sound.wav": {
+  "atoms": [
+   "long-5.00",
+   "miyamoto.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "bumbino/getting dizzy 1.wav": {
+  "atoms": [
+   "long-5.00",
+   "short-17.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "bumbino/getting dizzy 2.wav": {
+  "atoms": [
+   "long-5.00",
+   "short-13.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "bumbino/getting dizzy 3.wav": {
+  "atoms": [
+   "belly.00",
+   "long-1.03"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "bumbino/snapping out of it 1.wav": {
+  "atoms": [
+   "gulp.00",
+   "long-1.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "bumbino/snapping out of it 2.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "bumbino/snapping out of it 3.wav": {
+  "atoms": [
+   "long-3.00",
+   "long-1.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "buttlicker_growl_01.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "buttlicker_growl_02.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "buttlicker_growl_03.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "button press.wav": {
+  "atoms": [
+   "short-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "carrionqueen/carrionqueen_diagvox_01.wav": {
+  "atoms": [
+   "short-18.00",
+   "cough.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "carrionqueen/carrionqueen_diagvox_02.wav": {
+  "atoms": [
+   "short-18.00",
+   "long-1.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "carrionqueen/carrionqueen_diagvox_03.wav": {
+  "atoms": [
+   "long-2.01",
+   "laugh.04"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "carrionqueen/carrionqueen_diagvox_04.wav": {
+  "atoms": [
+   "long-2.01",
+   "short-12.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "carrionqueen/carrionqueen_roar_01.wav": {
+  "atoms": [
+   "long-3.00",
+   "long-4.02"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "carrionqueen/carrionqueen_roar_02.wav": {
+  "atoms": [
+   "long-3.00",
+   "short-5.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "carrionqueen/carrionqueen_roar_03.wav": {
+  "atoms": [
+   "cough.00",
+   "short-13.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "carrionqueen/carrionqueen_roar_04.wav": {
+  "atoms": [
+   "gulp.00",
+   "short-16.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "cave monster roar.wav": {
+  "atoms": [
+   "long-2.01",
+   "short-17.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "child angry roar 2.wav": {
+  "atoms": [
+   "long-4.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "child angry roar short.wav": {
+  "atoms": [
+   "short-21.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "child happy roar short 2.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "child happy roar short.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "clap01.wav": {
+  "atoms": [
+   "short-5.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "clap02.wav": {
+  "atoms": [
+   "short-7.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "clap03.wav": {
+  "atoms": [
+   "short-16.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "converter.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "crookedpenny.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "crystalball.wav": {
+  "atoms": [
+   "short-15.00",
+   "short-9.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D6"
+ },
+ "cute grunt 2.wav": {
+  "atoms": [
+   "short-4.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "cute grunt 3.wav": {
+  "atoms": [
+   "short-11.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "cute grunt.wav": {
+  "atoms": [
+   "long-4.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "death skull dying.wav": {
+  "atoms": [
+   "long-5.00",
+   "long-4.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D5"
+ },
+ "death/death dies.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "baga.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "death/death growl_2.wav": {
+  "atoms": [
+   "short-18.00",
+   "short-1.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "death/death growl_3.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "death_spawn_vox_01.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D5"
+ },
+ "death_spawn_vox_02.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D5"
+ },
+ "death_spawn_vox_03.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D5"
+ },
+ "dogma/appear scream.wav": {
+  "atoms": [
+   "long-5.00",
+   "yayamero.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "dogma/black hole closing bursting.wav": {
+  "atoms": [
+   "long-5.00",
+   "otsuki.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "dogma/dogma death sequence.wav": {
+  "atoms": [
+   "long-5.00",
+   "sukisuki.04"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "dogma/preacher.wav": {
+  "atoms": [
+   "long-5.00",
+   "otsuki-3.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "dogma/preacher_1.wav": {
+  "atoms": [
+   "belly.00",
+   "iya.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "dogma/screaming baby static_2.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "yayamero.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "dogma/screaming baby static_5.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "sukisuki.03"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fallen/fallen_chase_growl_01.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fallen/fallen_chase_growl_02.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fallen/fallen_chase_growl_03.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fallen/fallen_chase_growl_04.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "famine/famine appears from off screen 1.wav": {
+  "atoms": [
+   "梅干.00",
+   "otsuki-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "famine/famine appears from off screen 2.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "famine/famine body killed.wav": {
+  "atoms": [
+   "gulp.00",
+   "nanda.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "famine/famine death.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "otsuki-3.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "famine/famine_bodydie1.wav": {
+  "atoms": [
+   "sukisuki.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "famine/famine_gurgleloop.wav": {
+  "atoms": [
+   "long-5.00",
+   "laugh.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "famine/famine_spitattack1.wav": {
+  "atoms": [
+   "long-4.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "famine/famine_spitattack2.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "famine/famine_spitattack3.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fart 2.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E1"
+ },
+ "fart 3.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E1"
+ },
+ "fart 4.wav": {
+  "atoms": [
+   "cough.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E1"
+ },
+ "fart 5.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E1"
+ },
+ "fart.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E1"
+ },
+ "fart gurg 2.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E1"
+ },
+ "fart gurg.wav": {
+  "atoms": [
+   "cough.02",
+   "belly.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E1"
+ },
+ "fart_mega.wav": {
+  "atoms": [
+   "cough.02",
+   "belly.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E1"
+ },
+ "feedback/1 up theremin.wav": {
+  "atoms": [
+   "short-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/band aid pick up.wav": {
+  "atoms": [
+   "short-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/battery charge.wav": {
+  "atoms": [
+   "long-4.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/beep.wav": {
+  "atoms": [
+   "laugh.04"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/blood bank spawn.wav": {
+  "atoms": [
+   "short-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/blood bank touched.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/book page turn.wav": {
+  "atoms": [
+   "short-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/castleportcullis.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/chest drop 1.wav": {
+  "atoms": [
+   "short-20.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/chest open 1.wav": {
+  "atoms": [
+   "laugh.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/coin slot.wav": {
+  "atoms": [
+   "long-4.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/death card mix.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/dime drop.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/dime pick up.wav": {
+  "atoms": [
+   "short-20.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/door heavy close.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/door heavy open.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/golden key.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/happy rainbow with giggle.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "nanda.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "feedback/key drop 2.wav": {
+  "atoms": [
+   "short-2.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/key pickup guantlet 4.wav": {
+  "atoms": [
+   "laugh.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/lock break 1.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/lock break 3.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/nickel drop.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/nickel pickup.wav": {
+  "atoms": [
+   "short-20.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/penny drop 1.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/penny pickup 1.wav": {
+  "atoms": [
+   "laugh.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "feedback/power up 3.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/power up 4.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/power up 7.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/power up1.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/power up spewer.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/slotspawn 0.wav": {
+  "atoms": [
+   "short-1.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/slotspawn 2.wav": {
+  "atoms": [
+   "short-2.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/slotspawn1.wav": {
+  "atoms": [
+   "short-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/summonsound.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/thumbs down.wav": {
+  "atoms": [
+   "short-1.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/thumbs up.wav": {
+  "atoms": [
+   "laugh.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "feedback/unlock.wav": {
+  "atoms": [
+   "short-20.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "finalmother/death.wav": {
+  "atoms": [
+   "belly.00",
+   "sukisuki.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "finalmother/fistula puke.wav": {
+  "atoms": [
+   "long-3.00",
+   "short-14.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "finalmother/grunts_1.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "finalmother/grunts_5.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "finalmother/grunts_6.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "finalmother/grunts_7.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "finalmother/laugh 1.wav": {
+  "atoms": [
+   "long-3.00",
+   "short-10.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "finalmother/laugh 2.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "finalmother/laugh 3.wav": {
+  "atoms": [
+   "gulp.00",
+   "short-3.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "finalmother/mother appear.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "otsuki-2.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "finalmother/mother death phase 1.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "otsuki.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "finalmother/mother_angershake.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "finalmother/motherphase2deathmelt.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "miyamoto.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "firedeath hiss.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D5"
+ },
+ "fistula/fistula_growl_large_01.wav": {
+  "atoms": [
+   "gulp.00",
+   "laugh.02"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fistula/fistula_growl_large_02.wav": {
+  "atoms": [
+   "gulp.00",
+   "laugh.03"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fistula/fistula_growl_large_03.wav": {
+  "atoms": [
+   "long-3.00",
+   "short-17.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fistula/fistula_growl_large_04.wav": {
+  "atoms": [
+   "long-3.00",
+   "short-13.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fistula/fistula_growl_large_05.wav": {
+  "atoms": [
+   "belly.00",
+   "long-1.03"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fistula/fistula_growl_medium_01.wav": {
+  "atoms": [
+   "long-3.00",
+   "short-12.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fistula/fistula_growl_medium_02.wav": {
+  "atoms": [
+   "long-3.00",
+   "long-1.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fistula/fistula_growl_medium_03.wav": {
+  "atoms": [
+   "short-18.00",
+   "chuckle.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fistula/fistula_growl_medium_04.wav": {
+  "atoms": [
+   "short-18.00",
+   "long-1.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fistula/fistula_growl_medium_05.wav": {
+  "atoms": [
+   "short-19.00",
+   "long-1.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fistula/fistula_growl_small_01.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fistula/fistula_growl_small_02.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fistula/fistula_growl_small_03.wav": {
+  "atoms": [
+   "short-21.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fistula/fistula_growl_small_04.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "fistula/fistula_growl_small_05.wav": {
+  "atoms": [
+   "laugh.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "floatingknight_growl_01.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "floatingknight_growl_02.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "floaty baby roar.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "fly cough 2.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "fly cough 3.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "fly cough 4.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "fly cough.wav": {
+  "atoms": [
+   "long-4.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "fortunecookie.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "friendlyball_pickup.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "gish/gish_spit_tar.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "godeeper_crawlspace_dig.wav": {
+  "atoms": [
+   "short-1.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "godeeper_crawlspace_open.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "gold heart.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "gold heart drop.wav": {
+  "atoms": [
+   "short-2.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "goo death 0.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D5"
+ },
+ "goo death 1.wav": {
+  "atoms": [
+   "short-13.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D5"
+ },
+ "goo death 2.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D5"
+ },
+ "greed sfx/greed death/greed death scream4.wav": {
+  "atoms": [
+   "belly.00",
+   "sukisuki.02"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "greed sfx/greed roar/greed roar1.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "miyamo.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "greed sfx/greed roar/greed roar2.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "baga.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "greed sfx/greed shooting/spitting v1.wav": {
+  "atoms": [
+   "short-4.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "greed sfx/greed shooting/spitting v2.wav": {
+  "atoms": [
+   "short-21.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "greed sfx/greed shooting/spitting v3.wav": {
+  "atoms": [
+   "laugh.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "greed sfx/whispering wraiths.wav": {
+  "atoms": [
+   "long-5.00",
+   "yayamero.01"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "growl.wav": {
+  "atoms": [
+   "long-2.01",
+   "short-12.01"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "gurgbarf 2.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "gurgbarf1.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "haunt/haunt_death.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "iya.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "haunt/haunt_random_01.wav": {
+  "atoms": [
+   "long-2.01",
+   "short-11.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "haunt/haunt_random_02.wav": {
+  "atoms": [
+   "long-2.01",
+   "short-10.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "haunt/haunt_random_03.wav": {
+  "atoms": [
+   "long-4.01",
+   "short-8.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "heart out.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "heartin.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "hollow/hollow_death_01.wav": {
+  "atoms": [
+   "梅干.00",
+   "sukisuki.04"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "hollow/hollow_death_02.wav": {
+  "atoms": [
+   "baga.00",
+   "sukisuki.03"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "hollow/hollow_vocal_01.wav": {
+  "atoms": [
+   "short-18.00",
+   "short-17.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "hollow/hollow_vocal_02.wav": {
+  "atoms": [
+   "long-3.00",
+   "long-4.02"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "hollow/hollow_vocal_03.wav": {
+  "atoms": [
+   "long-3.00",
+   "short-14.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "hollow/hollow_vocal_04.wav": {
+  "atoms": [
+   "short-18.00",
+   "short-7.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "ibs_gurgle.wav": {
+  "atoms": [
+   "cough.02",
+   "short-9.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "imp_growl_01.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "imp_growl_02.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "imp_growl_03.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "inhale.wav": {
+  "atoms": [
+   "gulp.00",
+   "short-15.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "insect swarm.wav": {
+  "atoms": [
+   "long-4.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "isaacroar.wav": {
+  "atoms": [
+   "short-21.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "item_abyss.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "item_raise.wav": {
+  "atoms": [
+   "short-2.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "jar_of_flies.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "kiss lips .wav": {
+  "atoms": [
+   "short-12.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "knight_growl_01.wav": {
+  "atoms": [
+   "short-18.00",
+   "short-17.01"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "knight_growl_02.wav": {
+  "atoms": [
+   "long-2.01",
+   "long-1.01"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "ladder.wav": {
+  "atoms": [
+   "short-20.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "large chew.wav": {
+  "atoms": [
+   "long-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "larryjr/larryjr_death_01.wav": {
+  "atoms": [
+   "梅干.00",
+   "otsuki.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "larryjr/larryjr_death_02.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "otsuki-3.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "larryjr/larryjr_vocal_01.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "larryjr/larryjr_vocal_02.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "larryjr/larryjr_vocal_03.wav": {
+  "atoms": [
+   "short-19.00",
+   "short-3.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "larryjr/larryjr_vocal_04.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "leech 2.wav": {
+  "atoms": [
+   "long-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "leech.wav": {
+  "atoms": [
+   "long-1.03"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "little spit 1.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "little spit 2.wav": {
+  "atoms": [
+   "short-7.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "little spit 4.wav": {
+  "atoms": [
+   "cough.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "littlehorn/littlehorn_death.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "yayamero.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "littlehorncough.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "littlehorngrunt1.wav": {
+  "atoms": [
+   "short-13.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "littlehorngrunt2.wav": {
+  "atoms": [
+   "short-4.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "loki/loki_jump_giggle.wav": {
+  "atoms": [
+   "long-4.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "low inhale.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "maggot 2.wav": {
+  "atoms": [
+   "long-1.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "maggot1.wav": {
+  "atoms": [
+   "long-1.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "maggot burst out 2.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "maggot burst out.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "maskinfamy/maskinfamy_mad.wav": {
+  "atoms": [
+   "miyamo.00",
+   "otsuki-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "meaty deaths 0.wav": {
+  "atoms": [
+   "short-8.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D5"
+ },
+ "meaty deaths 1.wav": {
+  "atoms": [
+   "short-7.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D5"
+ },
+ "meaty deaths 2.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D5"
+ },
+ "meaty deaths 3.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D5"
+ },
+ "meaty deaths 4.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D5"
+ },
+ "megafatty/megafatty_gulp.wav": {
+  "atoms": [
+   "miyamo.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "megafatty/megafatty_megafart.wav": {
+  "atoms": [
+   "sukisuki.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "megafatty/megafatty_suckin.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "nanda.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "megafatty/megafatty_vomit.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "otsuki-3.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "megapuke.wav": {
+  "atoms": [
+   "belly.00",
+   "laugh.02"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "mom/evil laugh.wav": {
+  "atoms": [
+   "long-5.00",
+   "otsuki-2.01"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/filter death 1.wav": {
+  "atoms": [
+   "long-5.00",
+   "nanda.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/filter evil laugh.wav": {
+  "atoms": [
+   "belly.00",
+   "sukisuki.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/filter hurt 1.wav": {
+  "atoms": [
+   "short-13.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/filter hurt 2.wav": {
+  "atoms": [
+   "laugh.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/filter hurt.wav": {
+  "atoms": [
+   "long-4.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/grunt 2.wav": {
+  "atoms": [
+   "short-21.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/grunt 3.wav": {
+  "atoms": [
+   "short-21.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/grunt 4.wav": {
+  "atoms": [
+   "long-4.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/grunt.wav": {
+  "atoms": [
+   "short-5.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/hurt 1.wav": {
+  "atoms": [
+   "short-4.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/hurt 2.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/hurt 3.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/mom.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/mom2.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/mom3.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/mom muffle 2.wav": {
+  "atoms": [
+   "laugh.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/mom muffle 3.wav": {
+  "atoms": [
+   "laugh.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/mom muffle 4.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/mom muffle.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mom/vox death.wav": {
+  "atoms": [
+   "long-5.00",
+   "otsuki.01"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "moms_box.wav": {
+  "atoms": [
+   "short-1.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "monster grunt 1a.wav": {
+  "atoms": [
+   "short-17.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster grunt 1b.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster grunt 2a.wav": {
+  "atoms": [
+   "long-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster grunt 2b.wav": {
+  "atoms": [
+   "short-17.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster grunt 4a.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster grunt 5.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster grunt 5b.wav": {
+  "atoms": [
+   "laugh.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster grunt.wav": {
+  "atoms": [
+   "short-13.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster grunt 4 b.wav": {
+  "atoms": [
+   "short-17.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster grunt b.wav": {
+  "atoms": [
+   "short-17.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster roar 02.wav": {
+  "atoms": [
+   "short-19.00",
+   "short-13.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster roar 03.wav": {
+  "atoms": [
+   "belly.00",
+   "short-10.01"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster roar 1.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster roar 2.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster roar 3.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster roar 4.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster roar 5.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster roar 7.wav": {
+  "atoms": [
+   "short-17.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster roar 8.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster roar.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster yell 1.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster yell 2.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster yell b1.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monster yell b5.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D1"
+ },
+ "monstros_lung_barf_01.wav": {
+  "atoms": [
+   "short-11.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "monstros_lung_barf_02.wav": {
+  "atoms": [
+   "long-4.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "mothershadow/momappear.wav": {
+  "atoms": [
+   "long-5.00",
+   "sukisuki.02"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mothershadow/momend.wav": {
+  "atoms": [
+   "long-5.00",
+   "miyamoto.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mothershadow/momintro.wav": {
+  "atoms": [
+   "long-5.00",
+   "yayamero.01"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "mouth full.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "movingbox_pack.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "movingbox_unpack.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "mulit scream.wav": {
+  "atoms": [
+   "short-11.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D3"
+ },
+ "multi scream.wav": {
+  "atoms": [
+   "short-18.00",
+   "laugh.03"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D3"
+ },
+ "pestilence/pestilence appear.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "sukisuki.03"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "pestilence/pestilence death.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "sukisuki.04"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "pestilence/pestilence fly cough.wav": {
+  "atoms": [
+   "sukisuki.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "pestilence/pestilence fly cough_1.wav": {
+  "atoms": [
+   "miyamoto.00",
+   "otsuki.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "pestilence/pestilence head dies.wav": {
+  "atoms": [
+   "梅干.00",
+   "otsuki-3.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "pestilence/pestilence spit blob barf_1.wav": {
+  "atoms": [
+   "gulp.00",
+   "short-12.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "pestilence/pestilence spit blob barf_2.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "pestilence/pestilence_neckpuke.wav": {
+  "atoms": [
+   "long-3.00",
+   "chuckle.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "pestilence/pestilence_pukestart1.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "pestilence/pestilence_pukestart2.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "pestilence/pestilence_pukestart3.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "pin/frail_spit.wav": {
+  "atoms": [
+   "long-4.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "poisonhurt1.wav": {
+  "atoms": [
+   "short-15.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D6"
+ },
+ "poisonhurt2.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D6"
+ },
+ "poisonmind_hurt_01.wav": {
+  "atoms": [
+   "short-15.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D6"
+ },
+ "poisonmind_hurt_02.wav": {
+  "atoms": [
+   "short-9.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D6"
+ },
+ "portableslot_coin.wav": {
+  "atoms": [
+   "short-1.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "portableslot_prize.wav": {
+  "atoms": [
+   "short-21.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "ragmega/ragmega_exhale.wav": {
+  "atoms": [
+   "miyamo.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "ragmega/ragmega_inhale.wav": {
+  "atoms": [
+   "miyamo.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "rkey.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "rottenheart1.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "rottenheart2.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "satan/satan appear.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "iya.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "satan/satan grow.wav": {
+  "atoms": [
+   "long-5.00",
+   "yayamero.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "satan/satan hurt.wav": {
+  "atoms": [
+   "long-5.00",
+   "otsuki-2.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "satan/satan spit 2.wav": {
+  "atoms": [
+   "belly.00",
+   "long-1.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "satan/satan spit 3.wav": {
+  "atoms": [
+   "belly.00",
+   "laugh.04"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "satan/satan spit.wav": {
+  "atoms": [
+   "belly.00",
+   "short-16.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "scared whimper 2.wav": {
+  "atoms": [
+   "short-9.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D6"
+ },
+ "scared whimper.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D6"
+ },
+ "scream gurgle hi 3.wav": {
+  "atoms": [
+   "long-5.00",
+   "short-14.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D3"
+ },
+ "scream gurgle hi.wav": {
+  "atoms": [
+   "long-5.00",
+   "short-10.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D3"
+ },
+ "scream gurgle lo.wav": {
+  "atoms": [
+   "long-5.00",
+   "short-3.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D3"
+ },
+ "scream gurgle low2.wav": {
+  "atoms": [
+   "long-5.00",
+   "laugh.03"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D3"
+ },
+ "scream gurgle medium 2.wav": {
+  "atoms": [
+   "long-5.00",
+   "short-12.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D3"
+ },
+ "selflessknight_growl_01.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "selflessknight_growl_02.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "shakey kid roar 2.wav": {
+  "atoms": [
+   "laugh.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "shakey kid roar.wav": {
+  "atoms": [
+   "short-21.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "F"
+ },
+ "shell game 0.wav": {
+  "atoms": [
+   "chuckle.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "shell game 1.wav": {
+  "atoms": [
+   "short-10.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "shovel dig.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "shovel drop.wav": {
+  "atoms": [
+   "long-4.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "sink drain gurgle.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "siren/scream attack 1.wav": {
+  "atoms": [
+   "long-5.00",
+   "long-1.03"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "siren/scream attack 2.wav": {
+  "atoms": [
+   "long-5.00",
+   "long-1.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "siren/scream attack 3.wav": {
+  "atoms": [
+   "belly.00",
+   "laugh.02"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "siren/sing 1.wav": {
+  "atoms": [
+   "belly.00",
+   "cough.01"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "siren/sing 2.wav": {
+  "atoms": [
+   "belly.00",
+   "short-13.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "siren/sing 3.wav": {
+  "atoms": [
+   "long-5.00",
+   "long-1.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "siren/siren_screamattack.wav": {
+  "atoms": [
+   "long-5.00",
+   "short-12.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "siren/siren_singingattack.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "sistersvis/sistersvis_scare.wav": {
+  "atoms": [
+   "sukisuki.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "smelter_swallow.wav": {
+  "atoms": [
+   "short-1.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "soulpickup1.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "soulpickup2.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "soulpickup3.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "soulpickup4.wav": {
+  "atoms": [
+   "long-4.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "spewer death scream 1.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D3"
+ },
+ "spewer death scream 4.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D3"
+ },
+ "spider coughs.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "spider spit roar 0.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "spider spit roar 1.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "spider spit roar 2.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "spin_to_win.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "stain/stain_attack_vox.wav": {
+  "atoms": [
+   "long-5.00",
+   "laugh.04"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "steven/steven_small_growl_01.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "steven/steven_small_growl_02.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "steven/steven_small_growl_03.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "steven/steven_small_growl_04.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "the_d6_roll.wav": {
+  "atoms": [
+   "short-1.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "theforsakenlaugh.wav": {
+  "atoms": [
+   "laugh.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D4"
+ },
+ "theforsakenscream.wav": {
+  "atoms": [
+   "long-5.00",
+   "long-4.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D3"
+ },
+ "trapdoor_jump.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "unborn_growl_01.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "unborn_growl_02.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "unborn_growl_03.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "D7"
+ },
+ "urnclose.wav": {
+  "atoms": [
+   "short-2.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "urnopen.wav": {
+  "atoms": [
+   "long-4.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G2"
+ },
+ "v2/black_heart_burst.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "v2/clicker_static.wav": {
+  "atoms": [
+   "nanda.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "v2/coininsert.wav": {
+  "atoms": [
+   "long-4.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "v2/pickup_dime_01.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "v2/pickup_lucky_02.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "v2/pickup_nickel_01.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "v2/pickup_penny_02.wav": {
+  "atoms": [
+   "short-5.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "voiceover/48 hr energy 6.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "otsuki-3.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/___-2.wav": {
+  "atoms": [
+   "belly.00",
+   "short-10.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/___-3.wav": {
+  "atoms": [
+   "belly.00",
+   "short-8.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/___.wav": {
+  "atoms": [
+   "short-19.00",
+   "long-4.02"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/addicted_01.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/algiz 3.wav": {
+  "atoms": [
+   "梅干.00",
+   "otsuki-2.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/amnesia 2.wav": {
+  "atoms": [
+   "梅干.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/ancient recall.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "nanda.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/ansuz 1.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/bad gas 2.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "sukisuki.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/bad trip 1.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/balls of steel 4.wav": {
+  "atoms": [
+   "梅干.00",
+   "otsuki.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/berkano 3.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/black rune 2.wav": {
+  "atoms": [
+   "miyamoto.00",
+   "sukisuki.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/bombs are key 1.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "baga.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/card against humanity 3.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "yayamero.01"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/chaos card 2.wav": {
+  "atoms": [
+   "梅干.00",
+   "sukisuki.03"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/clubs 1.wav": {
+  "atoms": [
+   "梅干.00",
+   "sukisuki.04"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/cracked key.wav": {
+  "atoms": [
+   "梅干.00",
+   "iya.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/credit card 2.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/dagaz 3.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/death 3.wav": {
+  "atoms": [
+   "梅干.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/diamonds 1.wav": {
+  "atoms": [
+   "long-3.00",
+   "otsuki.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/dice shard_04.wav": {
+  "atoms": [
+   "long-3.00",
+   "otsuki-3.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/drowsy 1.wav": {
+  "atoms": [
+   "miyamo.00",
+   "yayamero.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/ehwaz 1.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/emergency_03.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "nanda.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/era walk.wav": {
+  "atoms": [
+   "miyamoto.00",
+   "otsuki-2.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/excited 1.wav": {
+  "atoms": [
+   "long-3.00",
+   "otsuki-3.01"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/experimental pill_1.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "nanda.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/explosive diahhrea 2.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "otsuki.01"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/friends 1.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "otsuki-2.01"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/full health 1.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/gulp 1.wav": {
+  "atoms": [
+   "miyamoto.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/hagalaz 3.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/health down 2.wav": {
+  "atoms": [
+   "baga.00",
+   "sukisuki.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/health up 1.wav": {
+  "atoms": [
+   "梅干.00",
+   "sukisuki.02"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/hearts 1.wav": {
+  "atoms": [
+   "梅干.00",
+   "yayamero.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/hematemisis 1.wav": {
+  "atoms": [
+   "sukisuki.01"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/holy card 2.wav": {
+  "atoms": [
+   "miyamo.00",
+   "short-16.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/horf 2.wav": {
+  "atoms": [
+   "baga.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/huge growth.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "iya.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/i found pills 3.wav": {
+  "atoms": [
+   "gulp.00",
+   "sukisuki.03"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/infested_08.wav": {
+  "atoms": [
+   "sukisuki.01"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/infested!_02.wav": {
+  "atoms": [
+   "long-3.00",
+   "short-14.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/jail card_04.wav": {
+  "atoms": [
+   "long-3.00",
+   "sukisuki.04"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/jera 2.wav": {
+  "atoms": [
+   "梅干.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/joker 3.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/judgement 3.wav": {
+  "atoms": [
+   "梅干.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/justice 3.wav": {
+  "atoms": [
+   "sukisuki.01"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/larger_03.wav": {
+  "atoms": [
+   "miyamo.00",
+   "otsuki.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/lemon party 1.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/luck down 2.wav": {
+  "atoms": [
+   "short-21.00",
+   "otsuki-3.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/luck up 1.wav": {
+  "atoms": [
+   "梅干.00",
+   "yayamero.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/mega/48 hr energy!.wav": {
+  "atoms": [
+   "long-5.00",
+   "nanda.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/addicted.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "short-3.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/amnesia.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "otsuki-2.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/are you a wizard.wav": {
+  "atoms": [
+   "belly.00",
+   "laugh.02"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/bad gas.wav": {
+  "atoms": [
+   "short-19.00",
+   "short-17.01"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/bad trip.wav": {
+  "atoms": [
+   "yayamero.01",
+   "laugh.03"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/balls of steel.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "short-10.01"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/bombs are key.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "otsuki-3.01"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/exlax.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "long-1.03"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/experimental pill loud.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "cough.01"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/explosive diarrhea.wav": {
+  "atoms": [
+   "long-5.00",
+   "nanda.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/feels like i'm walkin on sunshine.wav": {
+  "atoms": [
+   "long-5.00",
+   "long-1.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/friends til the end.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "chuckle.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/full health.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/gulp.wav": {
+  "atoms": [
+   "miyamoto.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/health down.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "otsuki-2.01"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/health up.wav": {
+  "atoms": [
+   "laugh.00",
+   "short-13.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/hemetemisis.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "long-1.02"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/horf.wav": {
+  "atoms": [
+   "baga.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/i can see forever.wav": {
+  "atoms": [
+   "long-5.00",
+   "short-12.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/i found pills.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "long-1.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/i'm drowsy_1.wav": {
+  "atoms": [
+   "belly.00",
+   "sukisuki.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/i'm excited.wav": {
+  "atoms": [
+   "short-21.00",
+   "otsuki.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/infested.wav": {
+  "atoms": [
+   "梅干.00",
+   "laugh.04"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/infested_1.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "short-12.01"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/lemon party.wav": {
+  "atoms": [
+   "belly.00",
+   "sukisuki.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/luck down.wav": {
+  "atoms": [
+   "gulp.00",
+   "long-4.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/luck up.wav": {
+  "atoms": [
+   "sukisuki.01"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/one makes you larger.wav": {
+  "atoms": [
+   "miyamoto.00",
+   "short-4.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/one makes you small.wav": {
+  "atoms": [
+   "belly.00",
+   "short-5.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/paralysis.wav": {
+  "atoms": [
+   "baga.00",
+   "long-4.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/perks.wav": {
+  "atoms": [
+   "sukisuki.01"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/pheremones.wav": {
+  "atoms": [
+   "belly.00",
+   "short-15.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/power pill.wav": {
+  "atoms": [
+   "short-19.00",
+   "short-11.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/pretty fly.wav": {
+  "atoms": [
+   "gulp.00",
+   "short-16.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/puberty.wav": {
+  "atoms": [
+   "gulp.00",
+   "sukisuki.03"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/range down.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "short-14.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/range up.wav": {
+  "atoms": [
+   "short-19.00",
+   "short-10.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/relax.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "short-7.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/retro vision.wav": {
+  "atoms": [
+   "belly.00",
+   "sukisuki.04"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/shot speed down loud.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "otsuki.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/shot speed up loud.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "iya.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/something's wrong.wav": {
+  "atoms": [
+   "long-2.01",
+   "short-9.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/speed down.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "otsuki-3.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/speed up.wav": {
+  "atoms": [
+   "onceuponatimeinamerica.02"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/tears down.wav": {
+  "atoms": [
+   "laugh.00",
+   "short-8.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/tears up.wav": {
+  "atoms": [
+   "sukisuki.01"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/telepills.wav": {
+  "atoms": [
+   "yayamero.01",
+   "laugh.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/triple question mark_1.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/triple question mark_2.wav": {
+  "atoms": [
+   "long-2.01",
+   "yayamero.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/vurp.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/mega/what in the heck.wav": {
+  "atoms": [
+   "long-3.00",
+   "nanda.01"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B3"
+ },
+ "voiceover/paralysis 3.wav": {
+  "atoms": [
+   "long-2.01",
+   "short-17.01"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/percs1.wav": {
+  "atoms": [
+   "cough.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/perthro 1.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/pheromones 2.wav": {
+  "atoms": [
+   "miyamo.00",
+   "otsuki-2.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/power pill_09.wav": {
+  "atoms": [
+   "miyamoto.00",
+   "short-3.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/pretty fly 5.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "otsuki-3.01"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/puberty 1.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/q mark_05.wav": {
+  "atoms": [
+   "梅干.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/queen of hearts.wav": {
+  "atoms": [
+   "long-3.00",
+   "long-1.03"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/r u a wiz 2.wav": {
+  "atoms": [
+   "short-21.00",
+   "laugh.02"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/range down 2.wav": {
+  "atoms": [
+   "short-19.00",
+   "laugh.03"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/range up 1.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/relax 1.wav": {
+  "atoms": [
+   "short-18.00",
+   "nanda.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/retro_05.wav": {
+  "atoms": [
+   "gulp.00",
+   "short-10.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/reversed/death 3.wav": {
+  "atoms": [
+   "baga.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/judgement 3.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/justice 3.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/strength 1.wav": {
+  "atoms": [
+   "sukisuki.01"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/temperance 2.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the chariot 3.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the devil 2.wav": {
+  "atoms": [
+   "梅干.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the emporer 1.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the empress 1.wav": {
+  "atoms": [
+   "sukisuki.01"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the fool 2.wav": {
+  "atoms": [
+   "laugh.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the hanged man 1.wav": {
+  "atoms": [
+   "short-18.00",
+   "long-1.01"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the hermit 1.wav": {
+  "atoms": [
+   "short-21.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the hierophant 1.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the high priestess 3.wav": {
+  "atoms": [
+   "wusodaro.00",
+   "long-1.02"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the lovers 1.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the magician 2.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the moon 3.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the stars 1.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the sun 3.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the tower 3.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/the world 1.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/reversed/wheel of fortune 1.wav": {
+  "atoms": [
+   "梅干.00",
+   "sukisuki.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B2"
+ },
+ "voiceover/rules card 1.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/rune shard.wav": {
+  "atoms": [
+   "gulp.00",
+   "otsuki-2.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/see 4ever 1.wav": {
+  "atoms": [
+   "sukisuki.01",
+   "otsuki.01"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/see 4ever 2.wav": {
+  "atoms": [
+   "long-5.00",
+   "short-12.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/shot speed down_2.wav": {
+  "atoms": [
+   "miyamo.00",
+   "short-13.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/shot speed up_1.wav": {
+  "atoms": [
+   "long-3.00",
+   "cough.01"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/small_05.wav": {
+  "atoms": [
+   "miyamo.00",
+   "chuckle.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of .wav": {
+  "atoms": [
+   "miyamoto.00",
+   "long-1.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of apollyon_3.wav": {
+  "atoms": [
+   "miyamoto.00",
+   "laugh.04"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of azazel_2.wav": {
+  "atoms": [
+   "long-3.00",
+   "short-12.01"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of bethany_1.wav": {
+  "atoms": [
+   "gulp.00",
+   "sukisuki.02"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of cain.wav": {
+  "atoms": [
+   "gulp.00",
+   "long-4.02"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of eden.wav": {
+  "atoms": [
+   "gulp.00",
+   "short-5.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of eve.wav": {
+  "atoms": [
+   "gulp.00",
+   "short-13.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of isaac.wav": {
+  "atoms": [
+   "yayamero.01",
+   "short-4.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of jacob and esau.wav": {
+  "atoms": [
+   "belly.00",
+   "short-11.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of judas.wav": {
+  "atoms": [
+   "gulp.00",
+   "short-16.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of lazarus.wav": {
+  "atoms": [
+   "gulp.00",
+   "sukisuki.03"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of lillith.wav": {
+  "atoms": [
+   "belly.00",
+   "long-4.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of magdalene_1.wav": {
+  "atoms": [
+   "belly.00",
+   "short-15.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of samson_1.wav": {
+  "atoms": [
+   "miyamoto.00",
+   "short-10.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of the forgotten.wav": {
+  "atoms": [
+   "short-18.00",
+   "sukisuki.04"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of the keeper.wav": {
+  "atoms": [
+   "long-5.00",
+   "short-14.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/soul of the lost.wav": {
+  "atoms": [
+   "gulp.00",
+   "short-7.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/spades 2.wav": {
+  "atoms": [
+   "cough.02",
+   "iya.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/speed down 2.wav": {
+  "atoms": [
+   "梅干.00",
+   "short-8.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/speed up 2.wav": {
+  "atoms": [
+   "baga.00",
+   "short-9.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/strength 1.wav": {
+  "atoms": [
+   "sukisuki.01"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/suicide king 3.wav": {
+  "atoms": [
+   "long-3.00",
+   "otsuki.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/sunshine 1.wav": {
+  "atoms": [
+   "belly.00",
+   "otsuki-3.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/tears down 5.wav": {
+  "atoms": [
+   "long-3.00",
+   "long-2.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/tears up 2.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/telepills 4.wav": {
+  "atoms": [
+   "gulp.00",
+   "yayamero.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/temperance 2.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the chariot 3.wav": {
+  "atoms": [
+   "onceuponatimeinamerica.02"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the devil 2.wav": {
+  "atoms": [
+   "short-21.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the emporer 1.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the empress 1.wav": {
+  "atoms": [
+   "sukisuki.01"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the fool 2.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the hanged man 1.wav": {
+  "atoms": [
+   "short-18.00",
+   "laugh.01"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the hermit 1.wav": {
+  "atoms": [
+   "yayamero.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the hierophant 1.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the high priestess 3.wav": {
+  "atoms": [
+   "long-2.01",
+   "nanda.01"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the lovers 1.wav": {
+  "atoms": [
+   "wusodaro.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the magician 2.wav": {
+  "atoms": [
+   "long-2.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the moon 3.wav": {
+  "atoms": [
+   "miyamo.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the stars 1.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the sun 3.wav": {
+  "atoms": [
+   "laugh.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the tower 3.wav": {
+  "atoms": [
+   "short-18.00"
+  ],
+  "semitones": -7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/the world 1.wav": {
+  "atoms": [
+   "short-19.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/two of clubs 2.wav": {
+  "atoms": [
+   "long-3.00",
+   "short-20.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/two of diamonds 2.wav": {
+  "atoms": [
+   "long-3.00",
+   "short-3.00"
+  ],
+  "semitones": 7.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/two of hearts 1.wav": {
+  "atoms": [
+   "梅干.00",
+   "short-17.01"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/two of spades 1.wav": {
+  "atoms": [
+   "baga.00",
+   "otsuki-3.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/vurp 1.wav": {
+  "atoms": [
+   "miyamoto.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/wheel of fortune 1.wav": {
+  "atoms": [
+   "long-4.01",
+   "long-1.03"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/wild card_1.wav": {
+  "atoms": [
+   "short-19.00",
+   "otsuki-2.00"
+  ],
+  "semitones": 5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/wrong 1.wav": {
+  "atoms": [
+   "laugh.00",
+   "cough.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "voiceover/x lax 2.wav": {
+  "atoms": [
+   "梅干.00",
+   "short-12.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "B1"
+ },
+ "war/war appear.wav": {
+  "atoms": [
+   "miyamo.00",
+   "short-10.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "war/war death.wav": {
+  "atoms": [
+   "belly.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "war/war fire scream 1.wav": {
+  "atoms": [
+   "miyamoto.00",
+   "laugh.02"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "war/war fire scream 2.wav": {
+  "atoms": [
+   "miyamo.00",
+   "laugh.03"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "war/war grabs at you 1.wav": {
+  "atoms": [
+   "long-5.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "war/war grabs at you 2.wav": {
+  "atoms": [
+   "miyamo.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "war/war horse dies.wav": {
+  "atoms": [
+   "long-3.00",
+   "otsuki-2.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "war/war starts to chase you 1.wav": {
+  "atoms": [
+   "short-21.00"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "war/war starts to chase you 2.wav": {
+  "atoms": [
+   "long-3.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "C"
+ },
+ "wierd worm spit1.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "wierd worm spit2.wav": {
+  "atoms": [
+   "cough.02"
+  ],
+  "semitones": -5.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "wierd worm spit3.wav": {
+  "atoms": [
+   "gulp.00"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "woodennickel.wav": {
+  "atoms": [
+   "short-20.00"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "woodennickel_spawn.wav": {
+  "atoms": [
+   "long-4.01"
+  ],
+  "semitones": 3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "G1"
+ },
+ "worm spit 1.wav": {
+  "atoms": [
+   "cough.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "worm spit 2.wav": {
+  "atoms": [
+   "cough.01"
+  ],
+  "semitones": 0.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ },
+ "worm spit 3.wav": {
+  "atoms": [
+   "long-1.01"
+  ],
+  "semitones": -3.0,
+  "cap": false,
+  "fade_in": 3.0,
+  "fade_out": 12.0,
+  "same_ok": false,
+  "cat": "E2"
+ }
+}

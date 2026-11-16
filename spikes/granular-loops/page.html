@@ -1,0 +1,395 @@
+<title>Granular Loop Audition</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --ground: #F1F0EC;
+    --surface: #FBFAF8;
+    --surface-2: #E9E7E1;
+    --line: #D8D5CC;
+    --line-strong: #B9B5A9;
+    --ink: #1B1A17;
+    --ink-2: #4A4842;
+    --ink-dim: #7C7970;
+    --ember: #B5400C;
+    --ember-soft: rgba(181, 64, 12, 0.13);
+    --flux: #0C6570;
+    --flux-soft: rgba(12, 101, 112, 0.13);
+    --good: #2F6B3A;
+    --warn: #8A6100;
+    --sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+    --cond: "IBM Plex Sans Condensed", "IBM Plex Sans", ui-sans-serif, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #131316;
+      --surface: #1A1A1E;
+      --surface-2: #232329;
+      --line: #2E2E35;
+      --line-strong: #45454F;
+      --ink: #EBE9E4;
+      --ink-2: #B6B3AC;
+      --ink-dim: #8B8880;
+      --ember: #FF8154;
+      --ember-soft: rgba(255, 129, 84, 0.16);
+      --flux: #4FC9D2;
+      --flux-soft: rgba(79, 201, 210, 0.16);
+      --good: #6FCB85;
+      --warn: #E0AE3C;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #131316;
+    --surface: #1A1A1E;
+    --surface-2: #232329;
+    --line: #2E2E35;
+    --line-strong: #45454F;
+    --ink: #EBE9E4;
+    --ink-2: #B6B3AC;
+    --ink-dim: #8B8880;
+    --ember: #FF8154;
+    --ember-soft: rgba(255, 129, 84, 0.16);
+    --flux: #4FC9D2;
+    --flux-soft: rgba(79, 201, 210, 0.16);
+    --good: #6FCB85;
+    --warn: #E0AE3C;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 40px 24px 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  /* ---------------------------------------------------------- masthead */
+  .masthead { display: flex; flex-direction: column; gap: 14px; }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+  }
+
+  h1 {
+    font-family: var(--cond);
+    font-weight: 700;
+    font-size: clamp(30px, 4.4vw, 44px);
+    line-height: 1.06;
+    letter-spacing: -0.015em;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .standfirst {
+    max-width: 62ch;
+    color: var(--ink-2);
+    margin: 0;
+  }
+
+  .finding {
+    border-left: 3px solid var(--ember);
+    background: var(--ember-soft);
+    padding: 14px 18px;
+    max-width: 68ch;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .finding b { font-weight: 600; }
+  .finding p { margin: 0; }
+  .finding .k {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ember);
+  }
+
+  /* ---------------------------------------------------------- section */
+  section { display: flex; flex-direction: column; gap: 0; }
+
+  .sec-head {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--line-strong);
+  }
+  .sec-head h2 {
+    font-family: var(--mono);
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  .sec-head .meta {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--ink-dim);
+    font-variant-numeric: tabular-nums;
+  }
+  .tag {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+  }
+  .lava .tag, .lava .sec-head h2 { color: var(--ember); }
+  .flux .tag, .flux .sec-head h2 { color: var(--flux); }
+
+  /* ---------------------------------------------------------- rows */
+  .row {
+    display: grid;
+    grid-template-columns: 200px minmax(240px, 1fr) 190px 170px;
+    gap: 22px;
+    align-items: center;
+    padding: 18px 4px;
+    border-bottom: 1px solid var(--line);
+  }
+  .row.ref { background: var(--surface-2); padding-left: 12px; padding-right: 12px; }
+
+  .id { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+  .id .name {
+    font-family: var(--cond);
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 0.005em;
+  }
+  .lava .id .name { color: var(--ember); }
+  .flux .id .name { color: var(--flux); }
+  .row.ref .id .name { color: var(--ink); }
+  .id .params {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    line-height: 1.6;
+    color: var(--ink-dim);
+    word-break: break-word;
+  }
+  .id .params .lab { color: var(--ink-2); }
+
+  .play { display: flex; flex-direction: column; gap: 9px; min-width: 0; }
+  audio { width: 100%; height: 34px; }
+  .env { display: block; width: 100%; height: 42px; }
+  .caption {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+  }
+
+  .seamcell { display: flex; flex-direction: column; gap: 6px; }
+  .wrapsvg {
+    display: block;
+    width: 100%;
+    height: 56px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+  }
+
+  .metrics { display: flex; flex-direction: column; gap: 7px; }
+  .m { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+  .m .lab {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+  }
+  .m .val {
+    font-family: var(--mono);
+    font-size: 14px;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+  }
+  .val.good { color: var(--good); }
+  .val.warn { color: var(--warn); }
+
+  /* ---------------------------------------------------------- notes */
+  .notes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 22px 34px;
+    border-top: 2px solid var(--line-strong);
+    padding-top: 22px;
+  }
+  .note h3 {
+    font-family: var(--cond);
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0 0 5px;
+    letter-spacing: 0.01em;
+  }
+  .note p { margin: 0; color: var(--ink-2); font-size: 14px; }
+  .note code {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    background: var(--surface-2);
+    padding: 1px 4px;
+  }
+
+  a { color: inherit; }
+  :focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
+
+  @media (max-width: 900px) {
+    .row { grid-template-columns: 1fr 1fr; gap: 16px; }
+    .row .play { grid-column: 1 / -1; }
+  }
+  @media (max-width: 560px) {
+    .row { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="eyebrow">Isaac voice SFX mod &middot; design spike</div>
+    <h1>Can a human voice hold a loop?</h1>
+    <p class="standfirst">
+      Six candidates for the two hardest targets in the mod, built by granular synthesis
+      from single sustained vowels. Every clip below is 2&ndash;3 repetitions baked into one
+      file, so the join is audible without relying on gapless playback. Compare each
+      against the vanilla reference row.
+    </p>
+    <div class="finding">
+      <span class="k">Result</span>
+      <p><b>The synthesised loops join more cleanly than the game&rsquo;s own.</b> Grains are
+      written with a modulo-N index, so a grain crossing the end wraps to the start and the
+      buffer is seamless by construction. Vanilla&rsquo;s two files were cut by hand and are not.</p>
+    </div>
+  </header>
+
+  <div id="sections"></div>
+
+  <div class="notes">
+    <div class="note">
+      <h3>What the seam number means</h3>
+      <p>The jump between the last and first sample, divided by the waveform&rsquo;s own
+      99.9th-percentile step. At or below <code>1.00</code> the join is
+      indistinguishable from ordinary motion inside the wave.</p>
+    </div>
+    <div class="note">
+      <h3>Why the wrap panel is drawn</h3>
+      <p>12&nbsp;ms of tail followed by 12&nbsp;ms of head, in playback order. A seamless
+      loop reads as one continuous line across the marked centre; a broken one shows a
+      step exactly there.</p>
+    </div>
+    <div class="note">
+      <h3>Level, and what it cost</h3>
+      <p>Each candidate is driven to the vanilla file&rsquo;s RMS under a 6&nbsp;dB limiting
+      budget. <code>portal_loop</code> is a hot file at 0.426 RMS; the budget runs out
+      about 3&nbsp;dB short, and the shortfall is reported rather than hidden.</p>
+    </div>
+    <div class="note">
+      <h3>What to listen for</h3>
+      <p>Whether it reads as a texture or as a person. Grain size sets that: short grains
+      shred the voice into noise, long ones let syllable identity leak back through.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/;
+
+const ORDER = ["lava_loop.wav", "portal_loop.wav"];
+const SKIN = { "lava_loop.wav": "lava", "portal_loop.wav": "flux" };
+
+function envPath(env, w, h) {
+  const n = env.length;
+  const pts = env.map((v, i) => [i / (n - 1) * w, h - (v / 100) * (h - 2) - 1]);
+  return "M0," + h + "L" + pts.map(p => p[0].toFixed(1) + "," + p[1].toFixed(1)).join("L")
+    + "L" + w + "," + h + "Z";
+}
+
+function wrapPath(wave, w, h) {
+  const n = wave.length;
+  return "M" + wave.map((v, i) =>
+    (i / (n - 1) * w).toFixed(1) + "," + (h / 2 - v * (h / 2 - 2)).toFixed(1)).join("L");
+}
+
+function metric(lab, val, cls) {
+  return '<div class="m"><span class="lab">' + lab + '</span>' +
+    '<span class="val ' + (cls || "") + '">' + val + "</span></div>";
+}
+
+function rowHTML(r, skin) {
+  const ref = r.variant === "vanilla";
+  const accent = skin === "lava" ? "var(--ember)" : "var(--flux)";
+  const soft = skin === "lava" ? "var(--ember-soft)" : "var(--flux-soft)";
+  const params = ref
+    ? '<span class="lab">shipped by the game</span><br>reference for level and seam'
+    : '<span class="lab">src</span> ' + r.src +
+      (r.src_f0 ? " &middot; " + Math.round(r.src_f0) + " Hz" : "") +
+      ' &middot; ' + r.src_len.toFixed(2) + 's<br>' +
+      '<span class="lab">grain</span> ' + r.grain_ms + ' ms &middot; ' +
+      r.density + '/s<br>' +
+      '<span class="lab">pitch</span> ' + r.semis.map(s => (s > 0 ? "+" : "") + s).join(" ") + ' st<br>' +
+      '<span class="lab">tone</span> ' + r.tone;
+
+  const dB = r.short_db;
+  const dBtxt = (dB >= 0 ? "+" : "") + dB.toFixed(1) + " dB";
+  const dBcls = Math.abs(dB) <= 1 ? "good" : (Math.abs(dB) <= 4 ? "warn" : "");
+  const seamCls = r.seam <= 1 ? "good" : "warn";
+
+  return '<div class="row ' + (ref ? "ref" : "") + '">' +
+    '<div class="id"><span class="name">' + (ref ? "vanilla" : r.variant) + '</span>' +
+      '<span class="params">' + params + '</span></div>' +
+    '<div class="play">' +
+      '<audio controls preload="none" src="' + r.audio + '"></audio>' +
+      '<svg class="env" viewBox="0 0 600 42" preserveAspectRatio="none" aria-hidden="true">' +
+        '<path d="' + envPath(r.env, 600, 42) + '" fill="' + soft + '" stroke="' + accent +
+        '" stroke-width="1.2" vector-effect="non-scaling-stroke"/></svg>' +
+      '<span class="caption">' + r.reps + '&times; ' + r.dur.toFixed(3) + 's &middot; rms envelope</span>' +
+    '</div>' +
+    '<div class="seamcell">' +
+      '<svg class="wrapsvg" viewBox="0 0 380 56" preserveAspectRatio="none" aria-hidden="true">' +
+        '<path d="' + wrapPath(r.wrap, 380, 56) + '" fill="none" stroke="' + accent +
+        '" stroke-width="1" vector-effect="non-scaling-stroke"/>' +
+        '<line x1="190" y1="0" x2="190" y2="56" stroke="var(--line-strong)" ' +
+        'stroke-width="1" stroke-dasharray="3 3" vector-effect="non-scaling-stroke"/>' +
+      '</svg>' +
+      '<span class="caption">end &rarr; | &larr; start</span>' +
+    '</div>' +
+    '<div class="metrics">' +
+      metric("seam", r.seam.toFixed(2), seamCls) +
+      metric("rms", r.rms.toFixed(3), "") +
+      metric(ref ? "level" : "vs vanilla", ref ? "&mdash;" : dBtxt, ref ? "" : dBcls) +
+      metric("limiting", ref ? "&mdash;" : r.limit_db.toFixed(0) + " dB", "") +
+    "</div></div>";
+}
+
+const host = document.getElementById("sections");
+host.innerHTML = ORDER.map(target => {
+  const skin = SKIN[target];
+  const rows = DATA.filter(r => r.target === target)
+    .sort((a, b) => (a.variant === "vanilla" ? -1 : b.variant === "vanilla" ? 1 : 0));
+  const van = rows.find(r => r.variant === "vanilla");
+  return '<section class="' + skin + '">' +
+    '<div class="sec-head"><h2>' + target + '</h2>' +
+      '<span class="tag">' + (skin === "lava" ? "sustained / dark" : "swirling / airy") + '</span>' +
+      '<span class="meta">' + van.dur.toFixed(3) + 's &middot; 44.1 kHz mono &middot; ' +
+      'vanilla rms ' + van.rms.toFixed(3) + ' &middot; vanilla seam ' + van.seam.toFixed(2) + '</span>' +
+    '</div>' + rows.map(r => rowHTML(r, skin)).join("") + "</section>";
+}).join("");
+</script>

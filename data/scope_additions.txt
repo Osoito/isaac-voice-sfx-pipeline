@@ -1,0 +1,141 @@
+# Creature vocalisations and mouth sounds the keyword pass missed.
+# Reviewed by reading all 919 unclassified entity-area filenames.
+# "?" marks ones I could not settle from the name alone -- they go to the
+# audition page before being committed either way.
+
+## root -- creature voice / death cries
+bigleech.wav
+bigleech2.wav
+bluespider_die.wav
+boo mad.wav
+death skull dying.wav
+dog howell.wav
+gello.wav
+goo death 0.wav
+goo death 1.wav
+goo death 2.wav
+insect swarm.wav
+leech.wav
+leech 2.wav
+maggot1.wav
+maggot 2.wav
+maggot burst out.wav
+maggot burst out 2.wav
+meaty deaths 0.wav
+meaty deaths 1.wav
+meaty deaths 2.wav
+meaty deaths 3.wav
+meaty deaths 4.wav
+mr_me.wav
+necromancer.wav
+poisonhurt1.wav
+poisonhurt2.wav
+poisonmind_hurt_01.wav
+poisonmind_hurt_02.wav
+unholy!.wav
+zombie walker kid.wav
+zombie walker kid 2.wav
+
+## root -- mouth / body
+boss 2 bubbles.wav
+boss 2 bubbles 1.wav
+mouth full.wav
+heartbeat.wav
+heartbeat faster.wav
+heartbeat fastest.wav
+clap01.wav
+clap02.wav
+clap03.wav
+
+## root -- organic, uncertain from the name
+animal squish.wav ?
+animal squish 1.wav ?
+animal squish 2.wav ?
+blobby wiggle.wav ?
+blobby wiggle 2.wav ?
+blobby wiggle 3.wav ?
+fat wiggle.wav ?
+skin pull 1.wav ?
+skin pull 2.wav ?
+skin pull 3.wav ?
+death burst small.wav ?
+death burst small 2.wav ?
+death burst small 3.wav ?
+death_burst_large_0.wav ?
+death_burst_large_2.wav ?
+esaujr.wav ?
+inflate.wav ?
+
+## boss folders -- death, hurt and vocal reactions
+beast/beast death 1.wav
+beast/beast death 2.wav
+bighorn/bighorn_death.wav
+bighorn/bighorn_hurt_react.wav
+bumbino/death sound.wav
+bumbino/getting dizzy 1.wav
+bumbino/getting dizzy 2.wav
+bumbino/getting dizzy 3.wav
+bumbino/snapping out of it 1.wav
+bumbino/snapping out of it 2.wav
+bumbino/snapping out of it 3.wav
+death/death dies.wav
+dogma/dogma death sequence.wav
+famine/famine body killed.wav
+famine/famine death.wav
+famine/famine_bodydie1.wav
+famine/famine appears from off screen 1.wav
+famine/famine appears from off screen 2.wav
+finalmother/death.wav
+finalmother/mother death phase 1.wav
+finalmother/mother appear.wav
+finalmother/mother_angershake.wav
+finalmother/motherphase2deathmelt.wav
+haunt/haunt_death.wav
+haunt/haunt_random_01.wav
+haunt/haunt_random_02.wav
+haunt/haunt_random_03.wav
+hollow/hollow_death_01.wav
+hollow/hollow_death_02.wav
+larryjr/larryjr_death_01.wav
+larryjr/larryjr_death_02.wav
+littlehorn/littlehorn_death.wav
+maskinfamy/maskinfamy_mad.wav
+megafatty/megafatty_suckin.wav
+mom/filter death 1.wav
+mom/filter hurt.wav
+mom/filter hurt 1.wav
+mom/filter hurt 2.wav
+mom/hurt 1.wav
+mom/hurt 2.wav
+mom/hurt 3.wav
+mom/mom.wav
+mom/mom2.wav
+mom/mom3.wav
+mom/mom muffle.wav
+mom/mom muffle 2.wav
+mom/mom muffle 3.wav
+mom/mom muffle 4.wav
+mothershadow/momappear.wav
+mothershadow/momend.wav
+mothershadow/momintro.wav
+pestilence/pestilence appear.wav
+pestilence/pestilence death.wav
+pestilence/pestilence head dies.wav
+satan/satan appear.wav
+satan/satan grow.wav
+satan/satan hurt.wav
+sistersvis/sistersvis_scare.wav
+war/war appear.wav
+war/war death.wav
+war/war horse dies.wav
+war/war grabs at you 1.wav
+war/war grabs at you 2.wav
+war/war starts to chase you 1.wav
+war/war starts to chase you 2.wav
+
+## boss folders -- uncertain
+bumbino/misc 3.wav ?
+finalmother/misc 1.wav ?
+finalmother/misc2.wav ?
+gurdy/gurdy_face_smile_appear.wav ?
+gurdy/gurdy_face_attack_appear.wav ?

@@ -1,0 +1,590 @@
+angry gurgle 1.wav
+angry gurgle 2.wav
+beast/beast death 1.wav
+beast/beast death 2.wav
+beast/beast_vocal_angrygrowl.wav
+beast/beast_vocal_angrygrowl1.wav
+beast/beast_vocal_angrygrowl2.wav
+beast/beast_vocal_angrygrowl3.wav
+beast/beast_vocal_angrygrowl4.wav
+beast/beast_vocal_firebarf1.wav
+beast/beast_vocal_firebarf2.wav
+beast/beast_vocal_firebarf3.wav
+beast/beast_vocal_firebarf4.wav
+beast/beast_vocal_ghostattackroar1.wav
+beast/beast_vocal_ghostattackroar2.wav
+beast/beast_vocal_ghostattackroar3.wav
+beast/beast_vocal_grumble1.wav
+beast/beast_vocal_grumble2.wav
+beast/beast_vocal_grumble3.wav
+beast/beast_vocal_grumble4.wav
+beast/beast_vocal_grumble5.wav
+beast/beast_vocal_grumble6.wav
+beast/beast_vocal_grumble7.wav
+beast/beast_vocal_introscream.wav
+beast/beast_vocal_pullinclose.wav
+beast/beast_vocal_pullinopen.wav
+beast/beast_vocal_spitattack1.wav
+beast/beast_vocal_spitattack2.wav
+beast/beast_vocal_spitattack3.wav
+beast/beast_vocal_surfacegrowl.wav
+beast/beast_vocal_switchside1.wav
+beast/beast_vocal_switchside2.wav
+beast/beast_vocal_switchside3.wav
+bighorn/bighorn_death.wav
+bighorn/bighorn_hurt_react.wav
+bighorn/bighorn_prep_spit.wav
+bighorn/bighorn_spit.wav
+bigleech.wav
+bigleech2.wav
+bluespider_die.wav
+boil hatch.wav
+boo mad.wav
+boss 2 bubbles 1.wav
+boss 2 bubbles.wav
+boss bug hiss.wav
+boss gurgle lite.wav
+boss gurgle roar.wav
+boss lite hiss 2.wav
+boss lite hiss 3.wav
+boss lite hiss.wav
+boss lite roar 1.wav
+boss lite roar 2.wav
+boss lite roar 3.wav
+boss lite roar 4.wav
+boss lite sloppy roar 2.wav
+boss lite sloppy roar 3.wav
+boss lite sloppy roar.wav
+boss spit blob barf 1.wav
+boss spit blob barf 2.wav
+boss spit blob barf 3.wav
+brownielaugh1.wav
+brownielaugh2.wav
+bumbino/death sound.wav
+bumbino/getting dizzy 1.wav
+bumbino/getting dizzy 2.wav
+bumbino/getting dizzy 3.wav
+bumbino/snapping out of it 1.wav
+bumbino/snapping out of it 2.wav
+bumbino/snapping out of it 3.wav
+buttlicker_growl_01.wav
+buttlicker_growl_02.wav
+buttlicker_growl_03.wav
+carrionqueen/carrionqueen_diagvox_01.wav
+carrionqueen/carrionqueen_diagvox_02.wav
+carrionqueen/carrionqueen_diagvox_03.wav
+carrionqueen/carrionqueen_diagvox_04.wav
+carrionqueen/carrionqueen_roar_01.wav
+carrionqueen/carrionqueen_roar_02.wav
+carrionqueen/carrionqueen_roar_03.wav
+carrionqueen/carrionqueen_roar_04.wav
+cave monster roar.wav
+child angry roar 1.wav
+child angry roar 2.wav
+child angry roar short.wav
+child happy roar short 2.wav
+child happy roar short.wav
+clap01.wav
+clap02.wav
+clap03.wav
+crystalball.wav
+cute grunt 2.wav
+cute grunt 3.wav
+cute grunt.wav
+death skull dying.wav
+death/death dies.wav
+death/death growl_2.wav
+death/death growl_3.wav
+death_spawn_vox_01.wav
+death_spawn_vox_02.wav
+death_spawn_vox_03.wav
+dog bark.wav
+dog howell.wav
+dogma/appear scream.wav
+dogma/black hole closing bursting.wav
+dogma/dogma death sequence.wav
+dogma/preacher.wav
+dogma/preacher_1.wav
+dogma/screaming baby static_2.wav
+dogma/screaming baby static_5.wav
+fallen/fallen_chase_growl_01.wav
+fallen/fallen_chase_growl_02.wav
+fallen/fallen_chase_growl_03.wav
+fallen/fallen_chase_growl_04.wav
+famine/famine appears from off screen 1.wav
+famine/famine appears from off screen 2.wav
+famine/famine body killed.wav
+famine/famine death.wav
+famine/famine_bodydie1.wav
+famine/famine_gurgleloop.wav
+famine/famine_spitattack1.wav
+famine/famine_spitattack2.wav
+famine/famine_spitattack3.wav
+fart 2.wav
+fart 3.wav
+fart 4.wav
+fart 5.wav
+fart gurg 2.wav
+fart gurg.wav
+fart.wav
+fart_mega.wav
+fat grunt 1.wav
+fat grunt 2.wav
+feedback/happy rainbow with giggle.wav
+finalmother/death.wav
+finalmother/fistula puke.wav
+finalmother/grunts_1.wav
+finalmother/grunts_5.wav
+finalmother/grunts_6.wav
+finalmother/grunts_7.wav
+finalmother/laugh 1.wav
+finalmother/laugh 2.wav
+finalmother/laugh 3.wav
+finalmother/mother appear.wav
+finalmother/mother death phase 1.wav
+finalmother/mother_angershake.wav
+finalmother/motherphase2deathmelt.wav
+firedeath hiss.wav
+fistula/fistula_growl_large_01.wav
+fistula/fistula_growl_large_02.wav
+fistula/fistula_growl_large_03.wav
+fistula/fistula_growl_large_04.wav
+fistula/fistula_growl_large_05.wav
+fistula/fistula_growl_medium_01.wav
+fistula/fistula_growl_medium_02.wav
+fistula/fistula_growl_medium_03.wav
+fistula/fistula_growl_medium_04.wav
+fistula/fistula_growl_medium_05.wav
+fistula/fistula_growl_small_01.wav
+fistula/fistula_growl_small_02.wav
+fistula/fistula_growl_small_03.wav
+fistula/fistula_growl_small_04.wav
+fistula/fistula_growl_small_05.wav
+floatingknight_growl_01.wav
+floatingknight_growl_02.wav
+floaty baby roar 2.wav
+floaty baby roar.wav
+fly cough 2.wav
+fly cough 3.wav
+fly cough 4.wav
+fly cough.wav
+gello.wav
+ghost roar.wav
+gish/gish_spit_tar.wav
+goo death 0.wav
+goo death 1.wav
+goo death 2.wav
+greed sfx/greed death/greed death scream4.wav
+greed sfx/greed roar/greed roar1.wav
+greed sfx/greed roar/greed roar2.wav
+greed sfx/greed shooting/spitting v1.wav
+greed sfx/greed shooting/spitting v2.wav
+greed sfx/greed shooting/spitting v3.wav
+greed sfx/whispering wraiths.wav
+growl.wav
+gurgbarf 2.wav
+gurgbarf1.wav
+haunt/haunt_death.wav
+haunt/haunt_random_01.wav
+haunt/haunt_random_02.wav
+haunt/haunt_random_03.wav
+heartbeat faster.wav
+heartbeat fastest.wav
+heartbeat.wav
+hollow/hollow_death_01.wav
+hollow/hollow_death_02.wav
+hollow/hollow_vocal_01.wav
+hollow/hollow_vocal_02.wav
+hollow/hollow_vocal_03.wav
+hollow/hollow_vocal_04.wav
+ibs_gurgle.wav
+imp_growl_01.wav
+imp_growl_02.wav
+imp_growl_03.wav
+inhale.wav
+insect swarm.wav
+isaacroar.wav
+kiss lips .wav
+knight_growl_01.wav
+knight_growl_02.wav
+large chew.wav
+larryjr/larryjr_death_01.wav
+larryjr/larryjr_death_02.wav
+larryjr/larryjr_vocal_01.wav
+larryjr/larryjr_vocal_02.wav
+larryjr/larryjr_vocal_03.wav
+larryjr/larryjr_vocal_04.wav
+leech 2.wav
+leech.wav
+little spit 1.wav
+little spit 2.wav
+little spit 4.wav
+littlehorn/littlehorn_death.wav
+littlehorncough.wav
+littlehorngrunt1.wav
+littlehorngrunt2.wav
+loki/loki_jump_giggle.wav
+low inhale.wav
+maggot 2.wav
+maggot burst out 2.wav
+maggot burst out.wav
+maggot1.wav
+maskinfamy/maskinfamy_mad.wav
+meaty deaths 0.wav
+meaty deaths 1.wav
+meaty deaths 2.wav
+meaty deaths 3.wav
+meaty deaths 4.wav
+megafatty/megafatty_gulp.wav
+megafatty/megafatty_megafart.wav
+megafatty/megafatty_suckin.wav
+megafatty/megafatty_vomit.wav
+megapuke.wav
+mom/evil laugh.wav
+mom/filter death 1.wav
+mom/filter evil laugh.wav
+mom/filter hurt 1.wav
+mom/filter hurt 2.wav
+mom/filter hurt.wav
+mom/grunt 2.wav
+mom/grunt 3.wav
+mom/grunt 4.wav
+mom/grunt.wav
+mom/hurt 1.wav
+mom/hurt 2.wav
+mom/hurt 3.wav
+mom/mom muffle 2.wav
+mom/mom muffle 3.wav
+mom/mom muffle 4.wav
+mom/mom muffle.wav
+mom/mom.wav
+mom/mom2.wav
+mom/mom3.wav
+mom/vox death.wav
+monster grunt 1a.wav
+monster grunt 1b.wav
+monster grunt 2a.wav
+monster grunt 2b.wav
+monster grunt 4 b.wav
+monster grunt 4a.wav
+monster grunt 5.wav
+monster grunt 5b.wav
+monster grunt b.wav
+monster grunt.wav
+monster roar 02.wav
+monster roar 03.wav
+monster roar 1.wav
+monster roar 2.wav
+monster roar 3.wav
+monster roar 4.wav
+monster roar 5.wav
+monster roar 7.wav
+monster roar 8.wav
+monster roar.wav
+monster yell 1.wav
+monster yell 2.wav
+monster yell b1.wav
+monster yell b5.wav
+monstros_lung_barf_01.wav
+monstros_lung_barf_02.wav
+mothershadow/momappear.wav
+mothershadow/momend.wav
+mothershadow/momintro.wav
+mouth full.wav
+mr_me.wav
+mulit scream.wav
+multi scream.wav
+necromancer.wav
+pestilence/pestilence appear.wav
+pestilence/pestilence death.wav
+pestilence/pestilence fly cough.wav
+pestilence/pestilence fly cough_1.wav
+pestilence/pestilence head dies.wav
+pestilence/pestilence spit blob barf_1.wav
+pestilence/pestilence spit blob barf_2.wav
+pestilence/pestilence_neckpuke.wav
+pestilence/pestilence_pukestart1.wav
+pestilence/pestilence_pukestart2.wav
+pestilence/pestilence_pukestart3.wav
+pin/frail_spit.wav
+player/baby hurt 1.wav
+player/baby hurt 2.wav
+player/baby hurt 3.wav
+player/derp 0.wav
+player/derp 1.wav
+player/hurt grunt .wav
+player/hurt grunt 1.wav
+player/hurt grunt 2.wav
+player/isaac dies new 1.wav
+player/isaac dies new 2.wav
+player/isaac dies new.wav
+poisonhurt1.wav
+poisonhurt2.wav
+poisonmind_hurt_01.wav
+poisonmind_hurt_02.wav
+ragmega/ragmega_exhale.wav
+ragmega/ragmega_inhale.wav
+satan/satan appear.wav
+satan/satan grow.wav
+satan/satan hurt.wav
+satan/satan spit 2.wav
+satan/satan spit 3.wav
+satan/satan spit.wav
+scared whimper 2.wav
+scared whimper.wav
+scream gurgle hi 3.wav
+scream gurgle hi.wav
+scream gurgle lo.wav
+scream gurgle low2.wav
+scream gurgle medium 2.wav
+selflessknight_growl_01.wav
+selflessknight_growl_02.wav
+shakey kid roar 2.wav
+shakey kid roar.wav
+sink drain gurgle.wav
+siren/scream attack 1.wav
+siren/scream attack 2.wav
+siren/scream attack 3.wav
+siren/sing 1.wav
+siren/sing 2.wav
+siren/sing 3.wav
+siren/siren_screamattack.wav
+siren/siren_singingattack.wav
+sistersvis/sistersvis_scare.wav
+smelter_swallow.wav
+spewer death scream 1.wav
+spewer death scream 4.wav
+spider coughs.wav
+spider spit roar 0.wav
+spider spit roar 1.wav
+spider spit roar 2.wav
+stain/stain_attack_vox.wav
+steven/steven_small_growl_01.wav
+steven/steven_small_growl_02.wav
+steven/steven_small_growl_03.wav
+steven/steven_small_growl_04.wav
+theforsakenlaugh.wav
+theforsakenscream.wav
+unborn_growl_01.wav
+unborn_growl_02.wav
+unborn_growl_03.wav
+unholy!.wav
+v2/clicker_static.wav
+voiceover/48 hr energy 6.wav
+voiceover/___-2.wav
+voiceover/___-3.wav
+voiceover/___.wav
+voiceover/addicted_01.wav
+voiceover/algiz 3.wav
+voiceover/amnesia 2.wav
+voiceover/ancient recall.wav
+voiceover/ansuz 1.wav
+voiceover/bad gas 2.wav
+voiceover/bad trip 1.wav
+voiceover/balls of steel 4.wav
+voiceover/berkano 3.wav
+voiceover/black rune 2.wav
+voiceover/bombs are key 1.wav
+voiceover/card against humanity 3.wav
+voiceover/chaos card 2.wav
+voiceover/clubs 1.wav
+voiceover/cracked key.wav
+voiceover/credit card 2.wav
+voiceover/dagaz 3.wav
+voiceover/death 3.wav
+voiceover/diamonds 1.wav
+voiceover/dice shard_04.wav
+voiceover/drowsy 1.wav
+voiceover/ehwaz 1.wav
+voiceover/emergency_03.wav
+voiceover/era walk.wav
+voiceover/excited 1.wav
+voiceover/experimental pill_1.wav
+voiceover/explosive diahhrea 2.wav
+voiceover/friends 1.wav
+voiceover/full health 1.wav
+voiceover/gulp 1.wav
+voiceover/hagalaz 3.wav
+voiceover/health down 2.wav
+voiceover/health up 1.wav
+voiceover/hearts 1.wav
+voiceover/hematemisis 1.wav
+voiceover/holy card 2.wav
+voiceover/horf 2.wav
+voiceover/huge growth.wav
+voiceover/i found pills 3.wav
+voiceover/infested!_02.wav
+voiceover/infested_08.wav
+voiceover/jail card_04.wav
+voiceover/jera 2.wav
+voiceover/joker 3.wav
+voiceover/judgement 3.wav
+voiceover/justice 3.wav
+voiceover/larger_03.wav
+voiceover/lemon party 1.wav
+voiceover/luck down 2.wav
+voiceover/luck up 1.wav
+voiceover/mega/48 hr energy!.wav
+voiceover/mega/addicted.wav
+voiceover/mega/amnesia.wav
+voiceover/mega/are you a wizard.wav
+voiceover/mega/bad gas.wav
+voiceover/mega/bad trip.wav
+voiceover/mega/balls of steel.wav
+voiceover/mega/bombs are key.wav
+voiceover/mega/exlax.wav
+voiceover/mega/experimental pill loud.wav
+voiceover/mega/explosive diarrhea.wav
+voiceover/mega/feels like i'm walkin on sunshine.wav
+voiceover/mega/friends til the end.wav
+voiceover/mega/full health.wav
+voiceover/mega/gulp.wav
+voiceover/mega/health down.wav
+voiceover/mega/health up.wav
+voiceover/mega/hemetemisis.wav
+voiceover/mega/horf.wav
+voiceover/mega/i can see forever.wav
+voiceover/mega/i found pills.wav
+voiceover/mega/i'm drowsy_1.wav
+voiceover/mega/i'm excited.wav
+voiceover/mega/infested.wav
+voiceover/mega/infested_1.wav
+voiceover/mega/lemon party.wav
+voiceover/mega/luck down.wav
+voiceover/mega/luck up.wav
+voiceover/mega/one makes you larger.wav
+voiceover/mega/one makes you small.wav
+voiceover/mega/paralysis.wav
+voiceover/mega/perks.wav
+voiceover/mega/pheremones.wav
+voiceover/mega/power pill.wav
+voiceover/mega/pretty fly.wav
+voiceover/mega/puberty.wav
+voiceover/mega/range down.wav
+voiceover/mega/range up.wav
+voiceover/mega/relax.wav
+voiceover/mega/retro vision.wav
+voiceover/mega/shot speed down loud.wav
+voiceover/mega/shot speed up loud.wav
+voiceover/mega/something's wrong.wav
+voiceover/mega/speed down.wav
+voiceover/mega/speed up.wav
+voiceover/mega/tears down.wav
+voiceover/mega/tears up.wav
+voiceover/mega/telepills.wav
+voiceover/mega/triple question mark_1.wav
+voiceover/mega/triple question mark_2.wav
+voiceover/mega/vurp.wav
+voiceover/mega/what in the heck.wav
+voiceover/paralysis 3.wav
+voiceover/percs1.wav
+voiceover/perthro 1.wav
+voiceover/pheromones 2.wav
+voiceover/power pill_09.wav
+voiceover/pretty fly 5.wav
+voiceover/puberty 1.wav
+voiceover/q mark_05.wav
+voiceover/queen of hearts.wav
+voiceover/r u a wiz 2.wav
+voiceover/range down 2.wav
+voiceover/range up 1.wav
+voiceover/relax 1.wav
+voiceover/retro_05.wav
+voiceover/reversed/death 3.wav
+voiceover/reversed/judgement 3.wav
+voiceover/reversed/justice 3.wav
+voiceover/reversed/strength 1.wav
+voiceover/reversed/temperance 2.wav
+voiceover/reversed/the chariot 3.wav
+voiceover/reversed/the devil 2.wav
+voiceover/reversed/the emporer 1.wav
+voiceover/reversed/the empress 1.wav
+voiceover/reversed/the fool 2.wav
+voiceover/reversed/the hanged man 1.wav
+voiceover/reversed/the hermit 1.wav
+voiceover/reversed/the hierophant 1.wav
+voiceover/reversed/the high priestess 3.wav
+voiceover/reversed/the lovers 1.wav
+voiceover/reversed/the magician 2.wav
+voiceover/reversed/the moon 3.wav
+voiceover/reversed/the stars 1.wav
+voiceover/reversed/the sun 3.wav
+voiceover/reversed/the tower 3.wav
+voiceover/reversed/the world 1.wav
+voiceover/reversed/wheel of fortune 1.wav
+voiceover/rules card 1.wav
+voiceover/rune shard.wav
+voiceover/see 4ever 1.wav
+voiceover/see 4ever 2.wav
+voiceover/shot speed down_2.wav
+voiceover/shot speed up_1.wav
+voiceover/small_05.wav
+voiceover/soul of .wav
+voiceover/soul of apollyon_3.wav
+voiceover/soul of azazel_2.wav
+voiceover/soul of bethany_1.wav
+voiceover/soul of cain.wav
+voiceover/soul of eden.wav
+voiceover/soul of eve.wav
+voiceover/soul of isaac.wav
+voiceover/soul of jacob and esau.wav
+voiceover/soul of judas.wav
+voiceover/soul of lazarus.wav
+voiceover/soul of lillith.wav
+voiceover/soul of magdalene_1.wav
+voiceover/soul of samson_1.wav
+voiceover/soul of the forgotten.wav
+voiceover/soul of the keeper.wav
+voiceover/soul of the lost.wav
+voiceover/spades 2.wav
+voiceover/speed down 2.wav
+voiceover/speed up 2.wav
+voiceover/strength 1.wav
+voiceover/suicide king 3.wav
+voiceover/sunshine 1.wav
+voiceover/tears down 5.wav
+voiceover/tears up 2.wav
+voiceover/telepills 4.wav
+voiceover/temperance 2.wav
+voiceover/the chariot 3.wav
+voiceover/the devil 2.wav
+voiceover/the emporer 1.wav
+voiceover/the empress 1.wav
+voiceover/the fool 2.wav
+voiceover/the hanged man 1.wav
+voiceover/the hermit 1.wav
+voiceover/the hierophant 1.wav
+voiceover/the high priestess 3.wav
+voiceover/the lovers 1.wav
+voiceover/the magician 2.wav
+voiceover/the moon 3.wav
+voiceover/the stars 1.wav
+voiceover/the sun 3.wav
+voiceover/the tower 3.wav
+voiceover/the world 1.wav
+voiceover/two of clubs 2.wav
+voiceover/two of diamonds 2.wav
+voiceover/two of hearts 1.wav
+voiceover/two of spades 1.wav
+voiceover/vurp 1.wav
+voiceover/wheel of fortune 1.wav
+voiceover/wild card_1.wav
+voiceover/wrong 1.wav
+voiceover/x lax 2.wav
+war/war appear.wav
+war/war death.wav
+war/war fire scream 1.wav
+war/war fire scream 2.wav
+war/war grabs at you 1.wav
+war/war grabs at you 2.wav
+war/war horse dies.wav
+war/war starts to chase you 1.wav
+war/war starts to chase you 2.wav
+wierd worm spit1.wav
+wierd worm spit2.wav
+wierd worm spit3.wav
+worm spit 1.wav
+worm spit 2.wav
+worm spit 3.wav
+zombie walker kid 2.wav
+zombie walker kid.wav
