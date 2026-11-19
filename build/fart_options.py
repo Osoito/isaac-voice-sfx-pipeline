@@ -17,7 +17,7 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from build import auto, dsp, ffio
+from build import auto, dsp, ffio, game
 
 ROOT = Path(__file__).resolve().parent.parent
 ATOMS_DIR = ROOT / "atoms"
@@ -25,9 +25,8 @@ SPEC = ROOT / "data" / "vanilla_spec.json"
 ATOMS = ROOT / "data" / "atoms.json"
 AUTO = ROOT / "data" / "auto_map.json"
 OUT = ROOT / "data" / "fart.html"
-VANILLA_SFX = Path(
-    "D:/softwares/Steam/steamapps/common/The Binding of Isaac Rebirth"
-    "/extracted_resources/resources/sfx")
+VANILLA_SFX = game.require(game.vanilla_sfx_dir(), "the extracted vanilla sfx tree",
+                            game.EXTRACTOR_HINT)
 
 # Sources worth hearing here: the current restriction, plus what the category
 # drew on before it.

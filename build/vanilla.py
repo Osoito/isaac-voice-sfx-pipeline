@@ -15,16 +15,13 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from build import dsp, ffio
+from build import dsp, ffio, game
 
 ROOT = Path(__file__).resolve().parent.parent
 SCOPE_LIST = ROOT / "data" / "scope_list.txt"
 SCOPE_EXTRA = ROOT / "data" / "scope_pickup.txt"
 SPEC_OUT = ROOT / "data" / "vanilla_spec.json"
-DEFAULT_SFX = Path(
-    "D:/softwares/Steam/steamapps/common/The Binding of Isaac Rebirth"
-    "/extracted_resources/resources/sfx"
-)
+DEFAULT_SFX = game.vanilla_sfx_dir()
 
 BANDS = [(0.15, "<0.15"), (0.4, "0.15-0.4"), (0.8, "0.4-0.8"),
          (1.5, "0.8-1.5"), (3.0, "1.5-3"), (6.0, "3-6")]
@@ -86,7 +83,9 @@ if __name__ == "__main__":
     paths = load_scope()
     if SCOPE_EXTRA.exists():
         paths += [p for p in load_scope(SCOPE_EXTRA) if p not in set(paths)]
-    rows = build_spec(DEFAULT_SFX, paths, SPEC_OUT)
+    sfx = game.require(DEFAULT_SFX, "the extracted vanilla sfx tree",
+                       game.EXTRACTOR_HINT)
+    rows = build_spec(sfx, paths, SPEC_OUT)
     print(f"measured {len(rows)} targets -> {SPEC_OUT}")
     print("bands:", dict(Counter(r["band"] for r in rows)))
     print("envelopes:", dict(Counter(r["env_class"] for r in rows)))

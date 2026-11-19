@@ -19,11 +19,15 @@ import shutil
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from build import game
+
 ROOT = Path(__file__).resolve().parent.parent
 MOD_SRC = ROOT / "mod"
 REPORT = ROOT / "data" / "build_report.json"
 STATE = ROOT / "data" / "deploy_state.json"
-MODS_DIR = Path("D:/softwares/Steam/steamapps/common/The Binding of Isaac Rebirth/mods")
+MODS_DIR = game.require(game.mods_dir(), "the game's mods folder")
 MOD_DIR_NAME = "miyamo voice sfx"
 MARKER = ".miyamo-build"
 

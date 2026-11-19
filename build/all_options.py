@@ -17,7 +17,7 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from build import dsp, ffio
+from build import dsp, ffio, game
 
 ROOT = Path(__file__).resolve().parent.parent
 VOICES = ROOT / "Voices"
@@ -25,9 +25,8 @@ ATOMS_DIR = ROOT / "atoms"
 ATOMS_JSON = ROOT / "data" / "atoms.json"
 SPEC = ROOT / "data" / "vanilla_spec.json"
 OUT = ROOT / "data" / "all_options.html"
-VANILLA_SFX = Path(
-    "D:/softwares/Steam/steamapps/common/The Binding of Isaac Rebirth"
-    "/extracted_resources/resources/sfx")
+VANILLA_SFX = game.require(game.vanilla_sfx_dir(), "the extracted vanilla sfx tree",
+                            game.EXTRACTOR_HINT)
 
 
 def envelope(x, n=160):

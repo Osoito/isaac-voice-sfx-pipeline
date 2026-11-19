@@ -18,15 +18,14 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from build import dsp, ffio
+from build import dsp, ffio, game
 
 ROOT = Path(__file__).resolve().parent.parent
 ATOM = ROOT / "atoms" / "wusodaro.00.wav"
 SPEC = ROOT / "data" / "vanilla_spec.json"
 OUT = ROOT / "data" / "death.html"
-VANILLA_SFX = Path(
-    "D:/softwares/Steam/steamapps/common/The Binding of Isaac Rebirth"
-    "/extracted_resources/resources/sfx")
+VANILLA_SFX = game.require(game.vanilla_sfx_dir(), "the extracted vanilla sfx tree",
+                            game.EXTRACTOR_HINT)
 
 # (key, label, tail_ms, fade_in_ms, fade_out_ms, note)
 TREATMENTS = [
