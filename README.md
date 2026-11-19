@@ -18,6 +18,20 @@ Voices/*.mp3                43 raw clips
    v build/deploy.py        install, or produce an uploadable release
 ```
 
+The mod itself is a Workshop subscription. How 43 clips were made to cover 673 slots is not, and that is what this repository is for.
+
+## What you can take from this
+
+**[`handoff.md`](handoff.md) is the densest thing here.** Everything I verified about Isaac audio modding, written for whoever does the next one. Where the mods folder actually is under Repentance+, the `metadata.xml` fields the Steam uploader owns and will overwrite, and the two separate switches (`MusicEnabled` and `MusicVolume`) that both have to be checked because either one alone makes a correct build inaudible. Open that file before writing an Isaac audio mod.
+
+**[`build/dsp.py`](build/dsp.py) is standalone.** Pure numpy and scipy, no file access, no project-specific anything. Silence trimming, RMS envelope, spectral centroid as a brightness measure, an envelope classifier, pitch shifting by resampling. Lift the file.
+
+**Segmenting speech on energy dips.** The obvious approach is to pick the loudest short window, and it lands in the middle of a phrase every time. Searching for the dips and treating the rise out of a dip as a syllable start is what produced usable pieces. [`build/atomize.py`](build/atomize.py).
+
+**Why a 1:16 ratio makes assignment a constraint problem.** Placing each clip wherever it scores best gives you a mod where the same laugh answers a coin drop, a door and a boss. The rules that stop that are written once in [`build/auto.py`](build/auto.py) and checked over the whole set, and the eight checks in [`build/bake.py`](build/bake.py) fail the build. They do not warn and carry on. If you are mapping a small pool of material onto a much larger set of slots, that is the part that transfers.
+
+**A mistyped resource path fails silently in Isaac.** The engine falls back to its own asset without a word, so nothing in a build can detect it. `build/bake.py` check 1 exists only because of that.
+
 ## Running it
 
 Needs Python 3.13 with numpy and scipy, and ffmpeg on PATH.
@@ -103,3 +117,5 @@ The pages are not committed. They are megabytes of someone else's audio and they
 `Voices/`, `atoms/` and `mod/resources/` are excluded, so this repository holds the pipeline and no audio.
 
 The granular loop experiment under `spikes/` works and has never been judged by ear. I still owe it a listening session. See `docs/granular-loop-spike.md`.
+
+Three more repositories from the same run of game-mod work, each written up the same way. [isaac-chiikawa-soundtrack](https://github.com/Osoito/isaac-chiikawa-soundtrack) is the music mod whose build this one grew out of, [yukkuri-toolbar-presets](https://github.com/Osoito/yukkuri-toolbar-presets) mods a closed HSP3 game by reading its process memory, and [asset-pipeline](https://github.com/Osoito/asset-pipeline) is the scaffold the two Isaac mods have in common.
