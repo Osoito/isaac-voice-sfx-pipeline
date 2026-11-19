@@ -1,5 +1,7 @@
 # Miyamo Voice SFX for The Binding of Isaac: Repentance+
 
+[![tests](https://github.com/Osoito/isaac-voice-sfx-pipeline/actions/workflows/tests.yml/badge.svg)](https://github.com/Osoito/isaac-voice-sfx-pipeline/actions/workflows/tests.yml)
+
 Replaces 673 of the game's sound effects with cut-up voice clips of one character. Published on the Steam Workshop as item [3798883789](https://steamcommunity.com/sharedfiles/filedetails/?id=3798883789).
 
 43 source clips had to cover 673 slots, about 16 slots per clip. A replacement that is funny the first time becomes unbearable the twentieth. So the work here is a pipeline. It cuts the clips into usable pieces, measures what each piece sounds like, measures what each target sound demands, assigns under stated constraints, and puts real audio in front of me before anything is committed to.

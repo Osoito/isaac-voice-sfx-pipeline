@@ -1,0 +1,25 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install numpy scipy pytest
+
+      # The game, the source clips and ffmpeg are all absent here on purpose.
+      # Three tests need one of those and skip with a message. The other 32
+      # exercise the DSP and the atomizer and have to pass on a bare machine,
+      # which is the whole point of keeping build/dsp.py free of file access.
+      - name: Run the tests
+        run: python -m pytest -q
