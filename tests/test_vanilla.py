@@ -1,6 +1,6 @@
 import json
 import numpy as np
-from conftest import VANILLA_SFX
+from conftest import VANILLA_SFX, requires_vanilla
 from build import vanilla
 
 
@@ -22,6 +22,7 @@ def test_group_strips_numbered_variants():
     assert vanilla.group("player/derp 0.wav") == "player/derp"
 
 
+@requires_vanilla
 def test_measure_one_real_file():
     row = vanilla.measure(VANILLA_SFX, "player/hurt grunt .wav")
     assert row["path"] == "player/hurt grunt .wav"
@@ -33,6 +34,7 @@ def test_measure_one_real_file():
     assert row["group"] == "player/hurt grunt"
 
 
+@requires_vanilla
 def test_build_spec_covers_every_scope_path(tmp_path):
     paths = ["player/hurt grunt .wav", "player/derp 0.wav"]
     out = tmp_path / "spec.json"
