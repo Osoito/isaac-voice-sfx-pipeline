@@ -20,6 +20,8 @@ Voices/*.mp3                43 raw clips
 
 Needs Python 3.13 with numpy and scipy, and ffmpeg on PATH.
 
+`build/game.py` finds the game. It reads Steam's install root from the registry and falls back to the common library locations, so on a normal Steam install there is nothing to configure. Set `ISAAC_DIR` to the game's install directory to override it. The audio steps also need the vanilla sfx extracted once with the game's own `tools/ResourceExtractor`.
+
 ```powershell
 python build/atomize.py
 python build/vanilla.py
@@ -28,7 +30,7 @@ python build/bake.py
 python build/deploy.py
 ```
 
-`python -m pytest` runs 35 tests over the DSP and the atomizer. Those need no audio, so they work on a fresh clone.
+`python -m pytest` runs 35 tests. 32 of them need nothing but this repository, so they pass on a fresh clone. The other 3 read the game's extracted sfx or the source clips, and they skip with a message saying what is missing.
 
 No audio ships with this repository. The voice clips come from a commercial anime and the targets are the game's own files, so neither is mine to redistribute. Drop your own clips into `Voices/` and the pipeline runs end to end.
 
@@ -77,6 +79,7 @@ The pages are not committed. They are megabytes of someone else's audio and they
 
 | Path | What it is |
 |---|---|
+| `build/game.py` | Where the game is installed. The only module that answers that. |
 | `build/dsp.py` | Pure DSP. numpy in, numpy out. |
 | `build/ffio.py` | The only module that knows where ffmpeg is. |
 | `build/atomize.py` | Clips to tagged atom library. |
