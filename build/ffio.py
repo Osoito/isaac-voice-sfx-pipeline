@@ -19,18 +19,35 @@ _WINGET_FF = (
 )
 
 
-def _find(name):
+_RESOLVED = {}
+
+
+def _locate(name):
     found = shutil.which(name)
     if found:
         return found
     candidate = _WINGET_FF / f"{name}.exe"
-    if candidate.exists():
-        return str(candidate)
-    sys.exit(f"error: {name} not found on PATH or at {candidate}")
+    return str(candidate) if candidate.exists() else None
 
 
-FFMPEG = _find("ffmpeg")
-FFPROBE = _find("ffprobe")
+def have(name):
+    """True when the tool can be found. For deciding whether to skip a test."""
+    if name not in _RESOLVED:
+        _RESOLVED[name] = _locate(name)
+    return _RESOLVED[name] is not None
+
+
+def tool(name):
+    """Path to ffmpeg or ffprobe, resolved on first use and never at import.
+
+    Importing this module has to work without ffmpeg installed. Most of the
+    tests exercise pure-numpy DSP and the stdlib wave reader, so a missing
+    ffmpeg should skip the few tests that decode audio instead of killing the
+    whole run at collection time.
+    """
+    if not have(name):
+        sys.exit(f"error: {name} not found on PATH or at {_WINGET_FF}")
+    return _RESOLVED[name]
 
 
 def run(args, **kw):
@@ -43,7 +60,7 @@ def run(args, **kw):
 
 def decode(path):
     """Any audio file -> mono float64 at SR."""
-    proc = run([FFMPEG, "-hide_banner", "-v", "error", "-i", str(path),
+    proc = run([tool("ffmpeg"), "-hide_banner", "-v", "error", "-i", str(path),
                 "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"])
     return np.frombuffer(proc.stdout, dtype="<f4").astype(np.float64)
 
@@ -78,13 +95,13 @@ def write_wav(path, x, sr=SR):
 
 
 def to_ogg(wav_path, ogg_path, bitrate="128k"):
-    run([FFMPEG, "-hide_banner", "-v", "error", "-y", "-i", str(wav_path),
+    run([tool("ffmpeg"), "-hide_banner", "-v", "error", "-y", "-i", str(wav_path),
          "-c:a", "libvorbis", "-b:a", bitrate, str(ogg_path)])
     return ogg_path
 
 
 def probe(path):
-    proc = run([FFPROBE, "-v", "error", "-select_streams", "a:0",
+    proc = run([tool("ffprobe"), "-v", "error", "-select_streams", "a:0",
                 "-show_entries",
                 "stream=codec_name,sample_rate,channels:format=duration,size",
                 "-of", "json", str(path)])

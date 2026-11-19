@@ -1,9 +1,10 @@
 import numpy as np
-from conftest import VOICES, requires_voices
+from conftest import VOICES, requires_ffmpeg, requires_voices
 from build import ffio
 
 
 @requires_voices
+@requires_ffmpeg
 def test_decode_returns_mono_float_at_44100():
     x = ffio.decode(VOICES / "iya.mp3")
     assert x.ndim == 1

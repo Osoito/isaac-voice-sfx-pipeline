@@ -6,7 +6,7 @@ import pytest
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from build import game
+from build import ffio, game
 
 # Both of these can be absent on a fresh checkout. The vanilla sfx tree has to be
 # extracted from the game once, and the voice clips are not mine to redistribute,
@@ -23,4 +23,9 @@ requires_vanilla = pytest.mark.skipif(
 requires_voices = pytest.mark.skipif(
     not (VOICES / "iya.mp3").exists(),
     reason="needs the source voice clips in Voices/, which are not in this repository.",
+)
+
+requires_ffmpeg = pytest.mark.skipif(
+    not ffio.have("ffmpeg"),
+    reason="needs ffmpeg on PATH. Only the tests that decode audio do.",
 )
