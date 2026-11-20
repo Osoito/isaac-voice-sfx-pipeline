@@ -124,7 +124,6 @@ PAGE = page_style.head("Death Cry Treatments", PAGE_CSS) + """<div class="wrap">
 <p class="lede">源录音本身就是硬切的，末尾没有余量可取，所以任何"延长"都只能是合成的。
 死亡音一局只响一次、不可能自我叠加，所以除了「现在」那一组，其余都<b>不受时长上界约束</b>，
 三个变体都是完整一句。</p>
-<div class="how"><p><b>回一个字母就行</b>（A/B/C/D）。也可以说"C 但尾巴短一点"之类，我调参数重烘。</p></div>
 </header>
 <div id="host"></div>
 </div>

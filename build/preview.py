@@ -86,8 +86,6 @@ PAGE = page_style.head("__TITLE__", PAGE_CSS) + """<div class="wrap">
 <div class="eyebrow">Miyamo voice SFX &middot; __CAT__ 逐个检查</div>
 <h1>__HEAD__</h1>
 <p class="lede">左边是游戏原声，右边是这一版装进去的替换品。小字是用到的原子 id。</p>
-<div class="how"><p><b>报文件名就行</b>，例如 <code>bigleech 换成 baga.00</code>，
-或者 <code>maggot 那几个都不行</code>。也可以只说"这个保留原声"。</p></div>
 </header>
 <div class="hdr"><span>香草原声</span><span>替换品</span></div>
 <div id="host"></div>

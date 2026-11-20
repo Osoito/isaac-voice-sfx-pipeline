@@ -142,8 +142,6 @@ PAGE = page_style.head("Isaac Voice Picks", PAGE_CSS) + """<div class="wrap">
 <h1>Isaac 该用哪一声？</h1>
 <p class="lede">四组主角音效，每组第一行是香草原声作参照，下面是从 70 个语音原子里按时长匹配挑出的候选。
 每个候选都已经按该音效的时长上限截断、并对齐到原声响度，所以你听到的就是装进游戏后的样子。</p>
-<div class="how"><p><b>怎么回我：</b>每组报一个原子 id 就行，比如
-<code>受伤 → iya.00，死亡 → yayamero.01</code>。一组想要多个（同组的编号变体游戏会随机播）就都报上。</p></div>
 </header>
 <div id="host"></div>
 </div>

@@ -8,6 +8,11 @@ The look is a late-90s utility page: a bordered white panel on a tiled ground, a
 black header bar, striped rows with real borders, and a kai display face for
 the heading. It has no dark mode, on purpose. A paper panel is the whole idea.
 
+There is no callout box. A tinted panel with a coloured bar down its left edge is
+the single most generic thing a generated page can contain, and the text that ends
+up inside one is usually an instruction with no stated reader. Say it in the lede
+or leave it out.
+
 A page adds its own layout rules and its own accent tokens on top. The names differ
 by page because what is being compared differs: preview has vanilla against
 replacement, the option pages have a current pick against candidates.
@@ -49,9 +54,6 @@ border-bottom:3px double #000;padding-bottom:6px}
 .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:#333;
 background:#e4e0d4;border:1px solid var(--line);display:inline-block;padding:1px 7px}
 .lede{max-width:62ch;color:var(--ink2);margin:0}
-.how{border:2px ridge #9a9589;border-left:4px solid var(--accent);background:#f2efe4;
-padding:9px 12px;max-width:64ch}
-.how p{margin:0}
 audio{width:100%%;height:30px;filter:grayscale(1) contrast(1.1)}
 .env{display:block;width:100%%;height:22px;margin-top:3px}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}

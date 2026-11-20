@@ -117,8 +117,6 @@ PAGE = page_style.head("Fart Candidates", PAGE_CSS) + """<div class="wrap">
 <p class="lede">绿底那行是现在装在游戏里的。<code>cough</code> 只有 3 个原子而
 <code>fart 1-5</code> 是同一编号组的 5 个变体，所以现在靠变调区分。
 <code>belly</code> 和 <code>gulp</code> 是你限定「只要 cough」之前这一类会用到的，一并列出来对比。</p>
-<div class="how"><p><b>按文件报</b>，例如 <code>fart 2 → belly.00 -4st</code>；
-或者整类一句话，例如 <code>全部只用 cough.02 系列</code>、<code>gurg 那两个改用 belly</code>。</p></div>
 </header>
 <div id="host"></div>
 </div>

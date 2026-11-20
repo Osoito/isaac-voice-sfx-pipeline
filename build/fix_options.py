@@ -178,8 +178,6 @@ PAGE = page_style.head("Howl and Grunt Fixes", PAGE_CSS) + """<div class="wrap">
 <p class="lede">绿底是现在装在游戏里的，灰底是香草原声。
 嚎叫那组全部降了调——重采样降调会同时拉长，正好把语音变成拖长的滑音；
 交叉淡化拉到 300ms 以上，接缝就不再像是换了个词。</p>
-<div class="how"><p><b>报编号</b>，例如 <code>16 用 H5，17/18 用 G3</code>。
-也可以说「H8 但再低一点」，我调参数重烘。</p></div>
 </header>
 <div id="host"></div>
 </div>

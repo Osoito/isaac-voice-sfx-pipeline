@@ -116,8 +116,6 @@ PAGE = page_style.head("Miyamo Sound Bank", PAGE_CSS) + """<div class="wrap">
 <h1>手上有的全部声音</h1>
 <p class="lede">上半部分是 43 段原始素材本身，下半部分是切出来的 70 个原子，
 全部按死亡音的响度渲染、不设时长上界，所以彼此之间可以直接比较。</p>
-<div class="how"><p><b>报 id 就行</b>，例如 <code>死亡 → long-2.00</code>。
-想听某个原子装进别的槽位（受伤 / 坏药丸）也直接说。</p></div>
 </header>
 <div id="host"></div>
 </div>
