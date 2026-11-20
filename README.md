@@ -89,6 +89,12 @@ Each threshold is a named constant at the top of `build/bake.py`.
 
 `build/choose.py`, `build/preview.py` and `build/all_options.py` generate self-contained HTML with the audio inlined as base64. Numbered rows, the game's own sound against the proposed replacement, playable in place. Every judgement about how the mod sounds was made on one of these pages. The numbering on a page is frozen once it has been handed over, so feedback can refer to row 38 weeks later.
 
+![An audition page with numbered rows, the vanilla sound on the left and its replacement on the right, each with a player and an amplitude envelope](docs/images/audition-page.png)
+
+One category from `build/preview.py`. The left column is the game's own file and the right one is what this build puts in its place, each with a player and an amplitude envelope so a wrong length or a dead start shows up by eye before anything is played. The navy text is the atom id used, and a `+` means several atoms were chained into one sound. Both durations are printed because a replacement longer than the file it replaces overlaps itself when the sound retriggers.
+
+The page is in Chinese because that is the language it was used in. The shape is what carries. Every row is numbered, and the row number is what feedback refers to.
+
 The pages are not committed. They are megabytes of someone else's audio and they regenerate in seconds.
 
 ## Layout

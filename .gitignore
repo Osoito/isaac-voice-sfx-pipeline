@@ -21,3 +21,6 @@ testmod/resources/
 
 # Process notes and task plans, not product documentation
 docs/superpowers/
+
+# Local preview config for the browser pane, not part of the mod
+.claude/
