@@ -18,7 +18,7 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from build import dsp, ffio, game
+from build import dsp, ffio, game, page_style
 
 ROOT = Path(__file__).resolve().parent.parent
 ATOM = ROOT / "atoms" / "wusodaro.00.wav"
@@ -103,26 +103,8 @@ def build():
     return sections
 
 
-PAGE = """<title>Death Cry Treatments</title>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400&display=swap">
-<style>
-:root{--ground:#F1F0EC;--surface2:#E7E5DE;--line:#D8D5CC;--ink:#1B1A17;--ink2:#4A4842;
---dim:#7C7970;--accent:#7A2E86;--soft:rgba(122,46,134,.13);
---sans:"IBM Plex Sans",system-ui,sans-serif;--cond:"IBM Plex Sans Condensed",var(--sans);
---mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;}
-@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--ground:#131316;--surface2:#232329;
---line:#2E2E35;--ink:#EBE9E4;--ink2:#B6B3AC;--dim:#8B8880;--accent:#C98BD6;--soft:rgba(201,139,214,.16);}}
-:root[data-theme=dark]{--ground:#131316;--surface2:#232329;--line:#2E2E35;--ink:#EBE9E4;
---ink2:#B6B3AC;--dim:#8B8880;--accent:#C98BD6;--soft:rgba(201,139,214,.16);}
-*{box-sizing:border-box}
-body{background:var(--ground);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.55}
-.wrap{max-width:920px;margin:0 auto;padding:34px 22px 60px;display:flex;flex-direction:column;gap:30px}
-h1{font-family:var(--cond);font-weight:700;font-size:clamp(26px,4vw,36px);margin:0;letter-spacing:-.015em}
-.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--dim)}
-.lede{max-width:62ch;color:var(--ink2);margin:0}
-.how{border-left:3px solid var(--accent);background:var(--soft);padding:12px 16px;max-width:64ch}
-.how p{margin:0}
+PAGE_CSS = """
+:root{--surface2:var(--stripe);--soft:var(--accent-soft)}
 section{display:flex;flex-direction:column}
 .h{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;padding-bottom:7px;border-bottom:2px solid var(--line)}
 .h h2{font-family:var(--cond);font-weight:700;font-size:19px;margin:0;color:var(--accent)}
@@ -132,12 +114,10 @@ padding:9px 4px;border-bottom:1px solid var(--line)}
 section.van .row{background:var(--surface2);padding-left:10px;padding-right:10px}
 .n{font-family:var(--mono);font-size:12.5px}
 .d{font-family:var(--mono);font-size:12px;color:var(--dim);text-align:right;font-variant-numeric:tabular-nums}
-audio{width:100%;height:32px}
-.env{display:block;width:100%;height:24px;margin-top:4px}
-:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media(max-width:720px){.row{grid-template-columns:1fr}.d{text-align:left}}
-</style>
-<div class="wrap">
+"""
+
+PAGE = page_style.head("Death Cry Treatments", PAGE_CSS) + """<div class="wrap">
 <header style="display:flex;flex-direction:column;gap:11px">
 <div class="eyebrow">Miyamo voice SFX &middot; 死亡音处理</div>
 <h1>「嘘だろ」该怎么收尾</h1>

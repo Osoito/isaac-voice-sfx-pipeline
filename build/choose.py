@@ -18,7 +18,7 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from build import dsp, ffio, game
+from build import dsp, ffio, game, page_style
 
 ROOT = Path(__file__).resolve().parent.parent
 ATOMS_DIR = ROOT / "atoms"
@@ -117,27 +117,8 @@ def build():
     return sections
 
 
-PAGE = """<title>Isaac Voice Picks</title>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500&display=swap">
-<style>
-:root{--ground:#F1F0EC;--surface:#FBFAF8;--surface2:#E7E5DE;--line:#D8D5CC;
---ink:#1B1A17;--ink2:#4A4842;--dim:#7C7970;--accent:#B5400C;--accent-soft:rgba(181,64,12,.13);--good:#2F6B3A;
---sans:"IBM Plex Sans",system-ui,sans-serif;--cond:"IBM Plex Sans Condensed",var(--sans);
---mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;}
-@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--ground:#131316;--surface:#1A1A1E;
---surface2:#232329;--line:#2E2E35;--ink:#EBE9E4;--ink2:#B6B3AC;--dim:#8B8880;--accent:#FF8154;
---accent-soft:rgba(255,129,84,.16);--good:#6FCB85;}}
-:root[data-theme=dark]{--ground:#131316;--surface:#1A1A1E;--surface2:#232329;--line:#2E2E35;
---ink:#EBE9E4;--ink2:#B6B3AC;--dim:#8B8880;--accent:#FF8154;--accent-soft:rgba(255,129,84,.16);--good:#6FCB85;}
-*{box-sizing:border-box}
-body{background:var(--ground);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.55}
-.wrap{max-width:1000px;margin:0 auto;padding:36px 22px 64px;display:flex;flex-direction:column;gap:34px}
-h1{font-family:var(--cond);font-weight:700;font-size:clamp(27px,4vw,38px);margin:0;letter-spacing:-.015em}
-.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--dim)}
-.lede{max-width:60ch;color:var(--ink2);margin:0}
-.how{border-left:3px solid var(--accent);background:var(--accent-soft);padding:12px 16px;max-width:64ch}
-.how p{margin:0}
+PAGE_CSS = """
+:root{--surface:var(--panel);--surface2:var(--stripe);--good:#2F6B3A}
 section{display:flex;flex-direction:column}
 .sec-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;padding-bottom:8px;
 border-bottom:2px solid var(--line)}
@@ -150,13 +131,12 @@ padding:11px 4px;border-bottom:1px solid var(--line)}
 .name{font-family:var(--mono);font-size:14px;font-weight:500;color:var(--accent);word-break:break-all}
 .row.van .name{color:var(--ink)}
 .detail{font-family:var(--mono);font-size:11px;color:var(--dim)}
-audio{width:100%;height:32px}
-.env{display:block;width:100%;height:26px;margin-top:5px}
 .warn{font-family:var(--mono);font-size:11px;color:var(--dim)}
-a{color:inherit}:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a{color:inherit}
 @media(max-width:760px){.row{grid-template-columns:1fr;gap:8px}}
-</style>
-<div class="wrap">
+"""
+
+PAGE = page_style.head("Isaac Voice Picks", PAGE_CSS) + """<div class="wrap">
 <header style="display:flex;flex-direction:column;gap:12px">
 <div class="eyebrow">Miyamo voice SFX mod &middot; 选音频</div>
 <h1>Isaac 该用哪一声？</h1>

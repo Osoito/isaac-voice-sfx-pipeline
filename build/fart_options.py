@@ -17,7 +17,7 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from build import auto, dsp, ffio, game
+from build import auto, dsp, ffio, game, page_style
 
 ROOT = Path(__file__).resolve().parent.parent
 ATOMS_DIR = ROOT / "atoms"
@@ -95,28 +95,8 @@ def build():
     return sections
 
 
-PAGE = """<title>Fart Candidates</title>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400&display=swap">
-<style>
-:root{--ground:#F1F0EC;--surface2:#E7E5DE;--line:#D8D5CC;--ink:#1B1A17;--ink2:#4A4842;
---dim:#7C7970;--accent:#7A5B12;--soft:rgba(122,91,18,.14);--cur:#2F6B3A;--cursoft:rgba(47,107,58,.14);
---sans:"IBM Plex Sans",system-ui,sans-serif;--cond:"IBM Plex Sans Condensed",var(--sans);
---mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;}
-@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--ground:#131316;--surface2:#232329;
---line:#2E2E35;--ink:#EBE9E4;--ink2:#B6B3AC;--dim:#8B8880;--accent:#E0BC5A;--soft:rgba(224,188,90,.16);
---cur:#6FCB85;--cursoft:rgba(111,203,133,.16);}}
-:root[data-theme=dark]{--ground:#131316;--surface2:#232329;--line:#2E2E35;--ink:#EBE9E4;
---ink2:#B6B3AC;--dim:#8B8880;--accent:#E0BC5A;--soft:rgba(224,188,90,.16);
---cur:#6FCB85;--cursoft:rgba(111,203,133,.16);}
-*{box-sizing:border-box}
-body{background:var(--ground);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5}
-.wrap{max-width:980px;margin:0 auto;padding:34px 22px 60px;display:flex;flex-direction:column;gap:26px}
-h1{font-family:var(--cond);font-weight:700;font-size:clamp(25px,4vw,34px);margin:0;letter-spacing:-.015em}
-.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--dim)}
-.lede{max-width:62ch;color:var(--ink2);margin:0}
-.how{border-left:3px solid var(--accent);background:var(--soft);padding:12px 16px;max-width:64ch}
-.how p{margin:0}
+PAGE_CSS = """
+:root{--surface2:var(--stripe);--soft:var(--accent-soft);--cur:#404040;--cursoft:rgba(64,64,64,.18)}
 .h{font-family:var(--cond);font-weight:700;font-size:18px;color:var(--accent);
 border-bottom:2px solid var(--line);padding-bottom:6px;margin-bottom:2px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0 24px}
@@ -127,12 +107,10 @@ padding:7px 2px;border-bottom:1px solid var(--line)}
 .n{font-family:var(--mono);font-size:12px;word-break:break-all}
 .row.cur .n::after{content:" ← 现在";color:var(--cur);font-weight:500}
 .d{font-family:var(--mono);font-size:10px;color:var(--dim)}
-audio{width:100%;height:28px}
-.env{display:block;width:100%;height:16px;margin-top:2px}
-:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media(max-width:620px){.row{grid-template-columns:1fr;gap:3px}}
-</style>
-<div class="wrap">
+"""
+
+PAGE = page_style.head("Fart Candidates", PAGE_CSS) + """<div class="wrap">
 <header style="display:flex;flex-direction:column;gap:11px">
 <div class="eyebrow">Miyamo voice SFX &middot; E1 放屁/打嗝</div>
 <h1>8 个放屁音，挑一遍</h1>
